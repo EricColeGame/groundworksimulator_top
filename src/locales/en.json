@@ -6,7 +6,15 @@
     "description": "Explore Groundwork Simulator guides for excavation, heavy machinery, gold mining, terrain shaping, wash plant setups, transportation, and cooperative gameplay.",
     "legalNotice": "Non-official fan wiki. Not affiliated with the Groundwork Simulator developer or publisher."
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "mechanics": "Mechanics",
+    "modes": "Modes",
+    "platforms": "Platforms",
+    "release": "Release",
+    "community": "Community",
+    "media": "Media"
+  },
   "home": {
     "meta": {
       "title": "Groundwork Simulator Wiki - Guides, Vehicles & Mining",
@@ -441,7 +449,34 @@
       "secondary": "Buy on Steam"
     }
   },
-  "bosses": {},
+  "guide": {
+    "overviewTitle": "Groundwork Simulator Guides",
+    "overviewDescription": "Master Groundwork Simulator with beginner advice, digging techniques, mining setup plans, money-making methods, and progression tips for every stage."
+  },
+  "mechanics": {
+    "overviewTitle": "Groundwork Simulator Mechanics",
+    "overviewDescription": "Understand Groundwork Simulator digging, vehicle physics, gold washing, heavy machinery, mining equipment, and flooded claim recovery."
+  },
+  "modes": {
+    "overviewTitle": "Groundwork Simulator Game Modes",
+    "overviewDescription": "Explore Groundwork Simulator multiplayer co-op, sandbox mode, and open-world operations for solo players and four-person crews."
+  },
+  "platforms": {
+    "overviewTitle": "Groundwork Simulator Platforms",
+    "overviewDescription": "Check Groundwork Simulator Steam, PC, PS5, Xbox, and console availability alongside system requirements and platform details."
+  },
+  "release": {
+    "overviewTitle": "Groundwork Simulator Release & Updates",
+    "overviewDescription": "Follow Groundwork Simulator release date news, Steam Early Access plans, roadmap milestones, and the latest update coverage."
+  },
+  "community": {
+    "overviewTitle": "Groundwork Simulator Community",
+    "overviewDescription": "Connect with Groundwork Simulator players through Reddit, Discord, and the Steam Community for builds, discoveries, and troubleshooting."
+  },
+  "media": {
+    "overviewTitle": "Groundwork Simulator Media",
+    "overviewDescription": "Watch Groundwork Simulator trailers and gameplay, read reviews, and catch developer devlogs covering new machinery and features."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
@@ -473,10 +508,10 @@
     "officialInstagram": "Official Instagram",
     "officialWebsite": "Official Website",
     "vvBuilder": "Community Resources",
-    "beginnerGuide": "Excavation Guides",
-    "raceGuides": "Machinery Guides",
-    "bossGuides": "Gold Mining Guides",
-    "buildGuide": "Wash Plant Guides",
+    "beginnerGuide": "Guide Hub",
+    "raceGuides": "Machinery Mechanics",
+    "bossGuides": "Release & Updates",
+    "buildGuide": "Platforms & Requirements",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
   }

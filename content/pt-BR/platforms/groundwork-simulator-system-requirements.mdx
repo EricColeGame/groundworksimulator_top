@@ -1,0 +1,107 @@
+export const metadata = {
+  title: "Requisitos de sistema do Groundwork Simulator: PC, Mac e Steam Deck",
+  description: "Requisitos completos de sistema do Groundwork Simulator para Windows e macOS, além de dicas de CPU, RAM e VRAM para manter a física do solo rodando sem engasgos.",
+  category: "platforms",
+  date: "2026-10-23",
+}
+
+## Requisitos de sistema do Groundwork Simulator em resumo
+
+O Groundwork Simulator parece um simulador modesto de escavar e transportar terra até você ler as letras miúdas: a encosta que você remodela é solo simulado, e a água nas suas calhas de lavagem é água simulada. É exatamente por isso que os requisitos de sistema do Groundwork Simulator ficam mais altos do que o estilo visual sugere. Se a sua máquina não consegue acompanhar a física, cada concha de terra vira um engasgo. Abaixo você encontra os requisitos completos de sistema do Groundwork Simulator para Windows e macOS, o que cada especificação significa na prática e onde gastar seu dinheiro de upgrade primeiro.
+
+O jogo entrou em Acesso Antecipado no Steam em 22 de outubro de 2026, e a página da loja lista atualmente duas plataformas suportadas: Windows e macOS. Não há versão para Linux, nem versão para consoles, e a compatibilidade com o Steam Deck ainda está marcada como "Desconhecida". Os números principais são idênticos nas duas plataformas — 16 GB de RAM no mínimo, 24 GB recomendados e 10 GB de espaço de instalação no Windows.
+
+| Plataforma | Status | SO mínimo | GPU / Chip mínimo | Observações |
+|---|---|---|---|---|
+| Windows (64 bits) | Suportado | Windows 10 | NVIDIA GTX 1070, 8 GB de VRAM | DirectX 12 necessário |
+| macOS | Suportado | macOS Tahoe ou mais recente | Apple M4 | Somente Apple silicon |
+| Steam Deck | Não verificado | — | — | A classificação da Valve ainda é "Desconhecida" |
+| Linux | Não listado | — | — | Nenhuma versão nativa na página da loja |
+
+Uma observação prática antes de comprar: a oferta de lançamento está com 20% de desconto (US$ 19,99 em vez de US$ 24,99) até 29 de outubro, e os desenvolvedores disseram que não pretendem mudar o preço-base quando o Acesso Antecipado terminar. Isso torna os requisitos algo que vale a pena conferir com cuidado agora, e não depois que o desconto desaparecer.
+
+## Requisitos de sistema do Groundwork Simulator para Windows
+
+A lista para Windows é a que a maioria dos jogadores vai conferir primeiro, e o salto entre as faixas é mais agressivo do que o normal. O mínimo pede uma CPU da era dos seis núcleos e 16 GB de RAM; a faixa recomendada avança para um seis núcleos moderno e 24 GB. Curiosamente, a meta de VRAM não muda — as duas faixas pedem 8 GB —, o que mostra que a especificação recomendada é sobre poder bruto de processamento, não sobre capacidade de textura.
+
+| Componente | Mínimo | Recomendado |
+|---|---|---|
+| SO | Windows 10 (64 bits) | Windows 11 (64 bits) |
+| Processador | Intel Core i5-8400 / AMD Ryzen 5 2600 | Intel Core i5-12400 / AMD Ryzen 5 5600 |
+| Memória | 16 GB de RAM | 24 GB de RAM |
+| Placa de vídeo | NVIDIA GTX 1070 (8 GB de VRAM) | NVIDIA RTX 3060 (8 GB) / AMD RX 6600 (8 GB) |
+| DirectX | Versão 12 | Versão 12 |
+| Armazenamento | 10 GB de espaço disponível | 10 GB de espaço disponível |
+
+Os desenvolvedores incluíram uma nota fácil de passar batido: a simulação detalhada de solo e água coloca uma carga pesada no processador, o que torna o jogo exigente "mesmo que o visual possa sugerir o contrário". Leve isso a sério. Uma GTX 1070 é uma placa da era de 2016, mas ainda passa no critério aqui — o gargalo é a capacidade da máquina de calcular terra desmoronando e água correndo sessenta vezes por segundo.
+
+## Requisitos de sistema do Groundwork Simulator para Mac
+
+A versão para macOS é exclusiva para Apple silicon. Não existe caminho para Mac com Intel, e a página da loja exige explicitamente um processador Apple. O piso de sistema operacional é macOS Tahoe ou mais recente, o que exclui máquinas mais antigas que não conseguem receber a atualização. As faixas de chip são M4 no mínimo e M5 Pro no recomendado.
+
+| Componente | Mínimo | Recomendado |
+|---|---|---|
+| SO | macOS Tahoe ou mais recente | macOS Tahoe ou mais recente |
+| Processador | Apple M4 | Apple M5 Pro |
+| Memória | 16 GB de memória unificada | 24 GB de memória unificada |
+| Placa de vídeo | GPU integrada do Apple M4 | GPU integrada do Apple M5 Pro |
+| Armazenamento | Não listado na aba do Mac | Não listado na aba do Mac |
+
+Duas coisas merecem destaque. Primeiro, a listagem para Mac não publica um número de armazenamento, então planeje os mesmos 10 GB indicados na aba do Windows até que os desenvolvedores digam o contrário. Segundo, o Apple silicon compartilha memória entre o processador e a GPU. Em uma máquina com memória unificada, os 16 GB são efetivamente divididos entre dois consumidores, e é justamente por isso que a faixa recomendada pede 24 GB. Se você está em um Mac de modelo base, espere que a especificação mínima pareça mesmo um mínimo.
+
+## Por que sua CPU e sua RAM importam mais do que a GPU
+
+### A simulação roda no processador
+
+Cada concha recalcula o terreno, e o sistema de água recalcula o fluxo por bombas, mangueiras e calhas de lavagem. Esse trabalho acontece na CPU. Uma placa de vídeo intermediária vai desenhar a cena tranquilamente enquanto um processador mais fraco trava na matemática por trás dela. É por isso que uma máquina que roda outros simuladores com folga ainda pode sofrer aqui.
+
+### 16 GB é o piso, não a meta
+
+Dezesseis gigabytes é o mínimo para uma sessão single-player em um mapa. Quando você adiciona o cooperativo online, o estado de uma segunda máquina passa a sincronizar pela rede, e 24 GB se torna o número sensato. Se você já costuma manter um navegador com uma dúzia de abas abertas em segundo plano, faça as contas pensando na faixa recomendada.
+
+### Onde seu dinheiro deve ir
+
+| Prioridade | Upgrade | Por que importa | Impacto no desempenho |
+|---|---|---|---|
+| 1 | RAM para 24–32 GB | Estado do terreno e da água, sincronização do coop | Alto |
+| 2 | CPU moderna de 6 núcleos | Física do solo e da água por tick | Alto |
+| 3 | GPU com 8 GB de VRAM | O piso de VRAM é o mesmo nas duas faixas | Moderado |
+| 4 | SSD para instalação | 10 GB de espaço, carregamento de mapa mais rápido | Baixo a moderado |
+
+Se você está pesando uma placa de vídeo contra um processador, o processador vence neste jogo. A GPU só precisa cumprir o requisito de 8 GB de VRAM e ter suporte a DirectX 12.
+
+## Dicas práticas para atender aos requisitos de sistema do Groundwork Simulator
+
+Atender aos requisitos de sistema do Groundwork Simulator no papel é uma coisa; manter uma taxa de quadros estável enquanto uma planta de lavagem funciona é outra. Estes ajustes não custam nada e compram folga de verdade.
+
+- **Limite a taxa de quadros.** Um limite de 60 FPS libera tempo do processador para a física em vez de renderizar quadros que você não consegue ver.
+- **Reduza a resolução antes de reduzir a qualidade da simulação.** Baixar de 4K para 1440p alivia a pressão sobre uma placa de 8 GB mais rápido do que a maioria das opções dentro do jogo.
+- **Feche aplicativos em segundo plano.** Com um mínimo de 16 GB, um navegador e um aplicativo de chat podem consumir vários gigabytes antes mesmo de o jogo abrir.
+- **Teste primeiro no tutorial do modo história.** É uma introdução guiada aos mecânicos principais e uma forma de baixo risco de medir sua máquina antes de se comprometer com uma escavação grande.
+- **Experimente o single-player antes do coop.** Se o modo solo já está no limite, hospedar um site compartilhado vai piorar a situação.
+- **Fique de olho no uso de VRAM.** As duas faixas listam 8 GB, então qualquer valor abaixo disso está fora da configuração suportada.
+
+| Configuração | Custo de desempenho | O que você perde |
+|---|---|---|
+| Resolução | Alto | Nitidez nos detalhes do terreno |
+| Qualidade das sombras | Moderado | Pistas de profundidade para ler as encostas |
+| Efeitos de água e partículas | Moderado | Feedback visual durante a lavagem |
+| Distância de renderização | Baixo a moderado | Percepção do terreno distante |
+
+Como o jogo só entrou em Acesso Antecipado em 22 de outubro de 2026, a otimização ainda está em andamento. Relatos da comunidade coletados nas primeiras semanas são leitura útil, mas trate-os como experiência de jogador, não como orientação oficial — os desenvolvedores disseram que vão compartilhar atualizações de progresso ao longo do Acesso Antecipado, e o desempenho pode mudar de patch para patch. Para a lista canônica de especificações, sempre confira o [Groundwork Simulator no Steam](https://store.steampowered.com/app/5306540/Groundwork_Simulator/) em vez de um post de fórum.
+
+Uma última palavra sobre o Steam Deck: a classificação de compatibilidade está listada como desconhecida, então não presuma que ele roda. Se quiser testar, use a janela de reembolso e confira a taxa de quadros no tutorial antes de se comprometer com uma sessão longa. O mesmo conselho vale para notebooks gamer — as versões móveis dessas placas não são equivalentes às versões de desktop com o mesmo nome, então compare a potência real e a VRAM em vez de confiar no selo na tampa.
+
+## FAQ
+
+**Consigo rodar o Groundwork Simulator com 8 GB de RAM?**
+Não. O mínimo publicado é de 16 GB tanto no Windows quanto no macOS, e a configuração recomendada sobe para 24 GB. Com 8 GB você está totalmente fora da especificação suportada, e a simulação de terreno é exatamente o tipo de carga que pune a falta de memória.
+
+**O jogo suporta Macs com Intel?**
+Não. A aba do macOS exige um processador Apple, com o M4 como chip mínimo e o M5 Pro como recomendado. Macs baseados em Intel não são cobertos pelos requisitos de sistema do Groundwork Simulator, mesmo que atendam ao número de memória.
+
+**24 GB de RAM são realmente necessários, ou 16 GB bastam?**
+Para jogo solo no único mapa do Acesso Antecipado, 16 GB atende ao mínimo. Para cooperativo online, áreas de trabalho maiores ou uma máquina rodando aplicativos em segundo plano, os 24 GB recomendados são a meta mais segura. A memória também é o upgrade mais barato desta lista.
+
+**O Groundwork Simulator virá para Linux, consoles ou Steam Deck?**
+Nada foi anunciado. A página da loja lista apenas Windows e macOS, e a compatibilidade com o Steam Deck continua sem classificação. Considerando que o Acesso Antecipado deve durar cerca de três a seis meses, com mais mapas e veículos planejados, uma expansão para mais plataformas é possível, mas não confirmada.

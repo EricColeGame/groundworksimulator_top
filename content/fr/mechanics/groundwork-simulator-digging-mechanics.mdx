@@ -1,0 +1,118 @@
+export const metadata = {
+  title: "Mécaniques de creusement de Groundwork Simulator : excavation, hydraulique et terrain",
+  description: "Une analyse pratique des mécaniques de creusement de Groundwork Simulator, du contrôle hydraulique du godet et de la physique des sols à la planification des tranchées et à la récupération de l'or.",
+  category: "mechanics",
+  date: "2026-10-23",
+}
+
+Un godet de terre ne vaut que ce que vous en faites ensuite, et c'est exactement l'idée autour de laquelle Groundwork Simulator construit toute sa boucle de jeu. Contrairement aux jeux de construction sandbox qui traitent le terrain comme un décor, ce simulateur en Early Access considère les **mécaniques de creusement de Groundwork Simulator** comme la compétence centrale que vous pratiquez, affinez et finissez par rentabiliser. Maîtrisez l'hydraulique, l'angle du godet et la planification des pentes, et un flanc de colline devient une exploitation aurifère ; précipitez-vous et vous passerez l'après-midi à treuiller une excavatrice embourbée.
+
+Groundwork Simulator est sorti en Early Access sur Steam le 22 octobre 2026, avec une carte jouable, une gamme d'engins de chantier et un mode histoire qui enseigne les bases via un tutoriel guidé. Les développeurs prévoient que l'Early Access durera environ trois à six mois, le temps d'ajouter des cartes et des véhicules. Si vous voulez la liste complète des fonctionnalités avant de commencer, la [page Groundwork Simulator sur Steam](https://store.steampowered.com/app/5306540/Groundwork_Simulator/) détaille les modes, la prise en charge du coop et les configurations requises.
+
+## Pourquoi les mécaniques de creusement de Groundwork Simulator sont différentes
+
+La plupart des simulateurs vous laissent creuser n'importe où sans jamais demander où va la terre excavée. Les mécaniques de creusement de Groundwork Simulator reposent sur un principe différent : le sol est une matière persistante, pas une texture. Les tranchées restent ouvertes, les tas restent entassés, et la rampe que vous taillez le premier jour devient la route dont vous dépendrez pour le reste du chantier.
+
+| Système | Ce qu'il contrôle | Pourquoi c'est important sur le chantier |
+|---|---|---|
+| Moteur d'excavation | La quantité de terre retirée à chaque pelletée | Détermine le temps de cycle et un creusement économe en carburant |
+| Retour hydraulique | Résistance, force de godetage, vitesse de levage | Vous oblige à adapter la profondeur de morsure à la puissance disponible |
+| Déformation du terrain | Tranchées, tas et pentes permanents | Votre propre travail modifie les itinéraires et les accès |
+| Eau et traitement | Alimentation de la station de lavage et débit de la sluice | Creuser ne sert à rien si le matériau ne peut pas être traité |
+
+Cette persistance explique pourquoi la planification l'emporte sur la puissance brute. Une rampe large et en pente douce coûte dix minutes de plus à tailler et épargne une heure de treuillage plus tard. Le terrain que vous laissez derrière vous est la fondation de votre prochain chantier, donc chaque coupe est aussi un acte de génie civil.
+
+## Au cœur du moteur d'excavation : hydraulique, angle du godet et charge
+
+Les mécaniques de creusement de Groundwork Simulator reposent sur un moteur d'excavation qui modélise la résistance plutôt que de jouer une animation de pelletée préenregistrée. Quand le godet rencontre le sol, la machine réagit à la charge qu'il contient : plus la morsure est profonde et le matériau lourd, plus il faut de puissance hydraulique pour godeter, lever et pivoter.
+
+| Entrée de creusement | Effet sur la coupe | Conseil pratique |
+|---|---|---|
+| Angle du godet | Les angles plats rasent et nivellent ; les angles raides mordent profond | Aplatissez pour les fonds de tranchée et les surfaces de rampe |
+| Position de la flèche et du bras | Portée contre levier | Gardez le godet près de la machine pour les levages lourds |
+| Vitesse de pivotement avec un godet plein | Risque de déversement et de basculement | Ralentissez le pivotement avant de lever la charge |
+| Placement des chenilles | Stabilité sur les pentes latérales | Faites face à la montée, ou nivelez le sol avant de creuser |
+| Puissance hydraulique sous charge | Vitesse de coupe contre calage | Faites des passes plus superficielles quand le moteur peine |
+
+### Lire la boucle de retour
+
+Parce que le simulateur vous donne un retour hydraulique plutôt qu'un bouton magique de creusement, le moyen le plus rapide de progresser est d'observer et d'écouter. Le bras ralentit, la note du moteur baisse, et le godet cesse de godeter quand vous demandez plus que ce que la machine peut donner. Ce calage est une information, pas un échec.
+
+Un exercice utile : sur terrain plat, entraînez-vous à remplir le godet en trois passes plutôt qu'une seule. Vous apprendrez quelle quantité de matériau il contient avant que l'hydraulique ne cale, et cette sensation se transfère directement au travail en pente, où un godetage bloqué peut se transformer en glissade. Le nivellement est la même compétence appliquée avec un godet plat et un toucher léger.
+
+## Lire le terrain : sol, pentes et traction
+
+Le terrain est l'autre moitié des mécaniques de creusement de Groundwork Simulator. La boue, les pentes et les sols accidentés font de chaque itinéraire une décision, et la machine qui creusait magnifiquement sur une argile ferme peut s'embourber en quelques minutes sur des déblais humides.
+
+| État du sol | Ce qui se passe | Comment le gérer |
+|---|---|---|
+| Sol ferme et non perturbé | Coupes nettes, parois de tranchée stables | Creusez d'abord des trous d'essai ici |
+| Tas de déblais meubles | Les parois s'effondrent, le godet perd sa charge | Gardez les tas à l'écart des bords de tranchée |
+| Boue | Perte de traction et patinage | Améliorez la surface avant de transporter dessus |
+| Pentes raides | Risque de basculement, charges glissantes | Taillez des banquettes et abordez de front |
+| Sol humide près de la station de lavage | Ornières et camions embourbés | Éloignez les tuyaux et le drainage de la piste de transport |
+
+### Dépanner les problèmes de creusement courants
+
+| Symptôme | Cause probable | Solution |
+|---|---|---|
+| Le godet cale en pleine coupe | Morsure trop profonde ou angle trop raide | Passes plus superficielles, godet plus plat |
+| La machine pique vers l'avant | Charge trop éloignée, ou creusement en descente | Rétractez le bras, repositionnez les chenilles |
+| Les parois de tranchée s'effondrent | Coupe trop raide dans un matériau meuble | Talutez les parois et creusez par étapes |
+| Le camion de transport s'embourbe sur la rampe | Rampe trop raide, humide ou surchargée | Reprofilez la rampe, charges plus légères |
+| La station de lavage manque d'eau | Acheminement de la pompe ou des tuyaux | Repositionnez la pompe, raccourcissez le tracé |
+
+Les retours de la communauté des premières semaines d'Early Access mériteront d'être suivis sur les forums Steam, où les développeurs ont annoncé qu'ils recueilleraient avis, rapports de bugs et suggestions de fonctionnalités.
+
+## Un flux de travail reproductible : du trou d'essai à la station de lavage
+
+Les opérateurs les plus efficaces traitent le creusement comme une séquence plutôt qu'un jeu libre. La boucle ci-dessous maintient le matériau en mouvement et évite l'erreur classique de creuser un trou sans moyen de traiter ce qui en sort.
+
+| Étape | Action | Objectif |
+|---|---|---|
+| 1. Reconnaissance | Explorer le terrain à la recherche de sol riche en or | Choisir une zone de recherche avant d'engager les machines |
+| 2. Sondage et essai | Échantillonner les gisements avec des trous d'essai | Confirmer la présence d'or avant de déplacer la station |
+| 3. Préparation du site | Tailler une rampe d'accès et niveler une plateforme | Amener engins et camions jusqu'à la coupe |
+| 4. Excavation | Extraire le matériau prometteur vers un stock | Alimenter régulièrement la station de lavage |
+| 5. Lavage | Faire passer le matériau dans les sluices | Produire du concentré |
+| 6. Traitement | Finir le concentré sur la table à secousses | Récupérer l'or et commencer le trou suivant |
+
+Deux habitudes font tourner ce flux de travail sans accroc. Premièrement, stockez du côté amont de la station pour que la gravité aide vos camions. Deuxièmement, taillez votre rampe avant d'en avoir besoin, pas après que la fosse est profonde et les parois raides. Les mécaniques de creusement de Groundwork Simulator récompensent ce type d'anticipation, car le site que vous construisez à la première heure est celui sur lequel vous travaillez à la cinquième.
+
+## Mécaniques de creusement en coop, rôles des machines et notes de performance
+
+Le coop en ligne transforme les mêmes mécaniques en un casse-tête de coordination. Un joueur peut prendre l'excavatrice pendant qu'un autre gère le transport, ou les deux peuvent maintenir le matériau en mouvement entre la zone de creusement et la station de lavage. Répartir le travail par machine fonctionne mieux que par tâche, car personne ne veut changer de siège toutes les cinq minutes.
+
+| Rôle | Machine | Tâche principale |
+|---|---|---|
+| Creuseur | Excavatrice | Tailler, niveler et charger les camions |
+| Transporteur | Camion et remorque | Déplacer le matériau et relocaliser les engins |
+| Opérateur de station | Station de lavage, pompes, tuyaux | Maintenir le débit d'eau et une alimentation régulière |
+
+Le transport est une compétence à part entière. Charger un engin lourd sur une remorque, planifier un itinéraire et négocier des virages serrés avec une charge derrière soi demande de la pratique, et un terrain accidenté punit l'impatience. Si un itinéraire est mauvais, réparez d'abord le sol ; parfois, le prochain travail consiste à améliorer la route sous vos roues avant de retourner creuser.
+
+La performance compte aussi ici, car la simulation détaillée du sol et de l'eau sollicite fortement le processeur même quand les visuels semblent modestes.
+
+| Configuration requise | Minimale | Recommandée |
+|---|---|---|
+| OS | Windows 10 | Windows 11 |
+| Processeur | Intel Core i5-8400 / AMD Ryzen 5 2600 | Intel Core i5-12400 / AMD Ryzen 5 5600 |
+| Mémoire | 16 Go de RAM | 24 Go de RAM |
+| Graphiques | NVIDIA GTX 1070 (8 Go) | NVIDIA RTX 3060 (8 Go) / AMD RX 6600 (8 Go) |
+| Stockage | 10 Go d'espace disponible | 10 Go d'espace disponible |
+
+Les joueurs Mac ont besoin d'une machine Apple silicon, avec un M4 comme minimum et un M5 Pro indiqué comme recommandé. Les développeurs précisent également que des outils d'IA générative ont été utilisés pour assister la création de certaines ressources, un détail à connaître si cela influence votre décision d'achat.
+
+## FAQ
+
+**Les mécaniques de creusement de Groundwork Simulator sont-elles réalistes ?**
+Elles visent à l'être. Le moteur d'excavation simule la résistance et le retour hydraulique afin que le godet réagisse au matériau qu'il contient, et la déformation du terrain est permanente. Ce n'est pas une simulation d'ingénierie complète, mais les fondamentaux d'angle, de charge et de traction se transposent directement du travail réel sur machine.
+
+**Dois-je terminer le mode histoire avant de creuser librement ?**
+Non, mais le mode histoire est un tutoriel guidé qui introduit les mécaniques de base étape par étape. C'est le moyen le plus rapide d'apprendre les commandes avant de vous lancer dans une grande excavation.
+
+**Puis-je jouer avec des amis ?**
+Oui. Le coop en ligne vous permet de répartir le travail, par exemple un joueur sur l'excavatrice et un autre transportant le matériau vers la station de lavage.
+
+**Pourquoi ma machine n'arrête-t-elle pas de s'embourber ?**
+Généralement à cause de la traction. Un sol humide, des rampes raides et des charges lourdes se combinent mal, alors reprofilez l'itinéraire, transportez des charges plus légères et améliorez la surface avant de blâmer la machine.

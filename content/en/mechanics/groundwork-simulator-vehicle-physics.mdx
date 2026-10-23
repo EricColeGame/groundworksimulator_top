@@ -1,0 +1,128 @@
+export const metadata = {
+  title: "Groundwork Simulator Vehicle Physics: Digging, Traction, and Load Handling",
+  description: "How Groundwork Simulator vehicle physics shapes every scoop, slope, and haul — excavation feedback, terrain deformation, traction tips, and system specs.",
+  category: "mechanics",
+  date: "2026-10-23",
+}
+
+Most heavy-machinery games let a bucket slice through a hillside like a spoon through pudding. Groundwork Simulator vehicle physics was built to do the opposite: every scoop carries weight, every slope pushes back, and every hydraulic cylinder has a ceiling. That design choice sits at the heart of the game's Early Access release, which arrived on [Steam](https://store.steampowered.com/app/5306540/Groundwork_Simulator/) on October 22, 2026, and it is the reason learning the physics model will make you a faster, cleaner operator from your very first trench.
+
+If you are arriving from arcade-style diggers, Groundwork Simulator vehicle physics will feel slow at first. That is the point. The simulation rewards planning over reflex, and the players who thrive are the ones who treat the machine as a partner with limits rather than a magic shovel.
+
+## What Groundwork Simulator Vehicle Physics Actually Simulates
+
+The developers describe an excavation engine with simulated hydraulic feedback, and the store page is unusually blunt about the consequences: the soil and water simulation leans hard on your processor, not your graphics card. In practice, that means the game is tracking several interlocking systems at once every time you pull a lever.
+
+| Physics system | What it models | How it changes your play |
+|---|---|---|
+| Excavation engine | Resistance as the bucket bites and fills | You must match angle and power to the material |
+| Hydraulic feedback | Available power for cutting and lifting | A full bucket needs a different technique than an empty one |
+| Terrain deformation | Permanent changes to the ground mesh | Every route you cut is a route you live with |
+| Traction model | Grip on mud, slopes, and loose ground | Route planning becomes a real decision |
+| Load and transport physics | Machine weight on a trailer and grade | Tight turns and descents demand patience |
+| Water routing | Pumps, hoses, and supply to the wash plant | A dry plant stops your gold recovery cold |
+
+The Early Access build ships with one playable map, a range of vehicles and heavy machinery, and a story mode that walks you through the core mechanics. That guided opening is the fastest way to feel how the physics behave before you commit to a big dig.
+
+## Hydraulic Feedback: How the Bucket Talks Back
+
+This is the section that separates Groundwork Simulator vehicle physics from every pretty-but-weightless excavator sim. When the bucket meets the ground, resistance builds, and the machine tells you about it. Push too steeply into hard material and you stall the cut. Curl too late and you drag a scraper-load of dust instead of a full bucket.
+
+The practical rule: cut shallow, curl early, and lift only once the bucket is loaded. Think of the cycle as four separate decisions — approach angle, bite depth, curl timing, and lift — rather than one continuous motion.
+
+| Digging scenario | Bucket angle | Hydraulic demand | Operator tip |
+|---|---|---|---|
+| Cutting into a hard hillside | Shallow, near-flat | High and sustained | Take repeated thin passes instead of one deep bite |
+| Scooping a loose stockpile | Steeper, angled down | Moderate | Curl while you lift to keep the load centered |
+| Cleaning a trench floor | Flat to the grade | Low | Watch the last few inches — the floor you leave is your road tomorrow |
+| Loading a haul truck | Moderate, controlled | Short bursts | Swing slow; a sloshing bucket loses material on the way |
+| Carrying a full bucket | Level and low | High for the lift | Travel low and slow, then dump with the machine settled |
+
+If the bucket refuses to fill, the fix is rarely more throttle. It is almost always a shallower bite or a different entry angle. Community reports from similar sims tend to agree on this: the machine punishes force and rewards finesse.
+
+## Terrain Deformation: Every Scoop Rewrites the Job Site
+
+Groundwork Simulator vehicle physics does not let you dig and forget. Trenches, cut hillsides, and stockpiles persist, and the ground you leave behind becomes the foundation for your next job. A sloppy trench edge becomes a ramp you cannot climb. A stockpile dumped in the wrong place becomes an obstacle between your dig face and the wash plant.
+
+Plan your site the way a real operator would:
+
+- **Dig with the haul route in mind.** Leave a wide, gently graded lane between the cut and the plant before you start chasing pay dirt.
+- **Build a flat pad for the wash plant early.** Water and material both behave better on level ground.
+- **Cut benches, not cliffs.** A stepped slope gives your tires something to grip on the way back up.
+- **Never undercut your own access road.** It is the single most common self-inflicted delay in terrain sims.
+
+| Terrain feature | How it forms | Effect on vehicle physics | Planning tip |
+|---|---|---|---|
+| Trench | Repeated scoops along a line | Narrow floors trap wheels and limit swing room | Keep one end open as an exit ramp |
+| Stockpile | Dumped material | Soft, shifting ground under tires | Keep piles off your main haul lane |
+| Bench or ramp | Deliberate stepped cut | Restores traction on steep faces | Build them before you need them |
+| Mud pit | Water spill or wet overburden | Traction drops sharply | Route hoses away from your driving line |
+| Cut slope | Hillside removal | Steep grades load the drivetrain | Descend loaded, climb empty where possible |
+
+## Traction, Mud, and Hauling Heavy Loads
+
+Mud, slopes, and rough ground turn every route into a decision. Groundwork Simulator vehicle physics models traction closely enough that a heavy load on a wet grade will genuinely cost you time — and sometimes a stuck machine. The store page hints at the correct mindset: sometimes the next job is improving the ground beneath your wheels before you get back to digging.
+
+| Surface condition | Traction risk | Recommended approach |
+|---|---|---|
+| Dry hardpack | Low | Maintain speed; this is your fast lane |
+| Wet clay | High | Reduce load, avoid sharp steering inputs |
+| Loose overburden | Moderate | Keep momentum, avoid stopping mid-slope |
+| Mud near the water line | Severe | Reroute the hose or lay down firmer material first |
+| Steep grade with trailer | High | Descend in a straight line, brake early and gently |
+
+Two habits pay off immediately. First, drive your loaded runs downhill and your empty runs uphill whenever the site allows it. Second, when a route starts failing, fix the route instead of fighting it — a few scoops of fill in the right spot beats ten minutes of wheel spin.
+
+## Trailer Transport and the Performance Cost of Real Physics
+
+Moving machinery between jobs is its own physics puzzle. You load heavy equipment onto a trailer, haul it by truck, and then navigate tight turns, slopes, and rough terrain with all that weight behind you.
+
+### Loading and Hauling Without Wrecking the Run
+
+| Step | Action | Why it matters |
+|---|---|---|
+| 1 | Stage the trailer on level, firm ground | A tilted trailer makes the ramp angle worse |
+| 2 | Line the machine up square to the ramp | Crooked approaches are how equipment slides off |
+| 3 | Climb slowly and straight, no steering corrections | Small inputs at the ramp become big swings up top |
+| 4 | Confirm the load is centered before moving | Off-center weight ruins your cornering |
+| 5 | Scout the route for tight turns and grades | A heavy load changes what counts as "passable" |
+| 6 | Unload on solid ground, not soft fill | A sunk trailer is a very long afternoon |
+
+### Why Groundwork Simulator Vehicle Physics Is Hard on Your CPU
+
+The developers' own system notes are refreshingly honest: the detailed soil and water simulation places a heavy load on the processor, and the game is demanding even when the visuals suggest otherwise. That has a practical implication — if you stutter during big digs or while the wash plant is running, a GPU upgrade alone may not be the answer.
+
+| Requirement | Minimum (Windows) | Recommended (Windows) |
+|---|---|---|
+| OS | Windows 10 | Windows 11 |
+| Processor | Intel Core i5-8400 / AMD Ryzen 5 2600 | Intel Core i5-12400 / AMD Ryzen 5 5600 |
+| Memory | 16 GB RAM | 24 GB RAM |
+| Graphics | NVIDIA GTX 1070, 8 GB VRAM | NVIDIA RTX 3060 or AMD RX 6600, 8 GB VRAM |
+| DirectX | Version 12 | Version 12 |
+| Storage | 10 GB available space | 10 GB available space |
+
+Mac players need an Apple-silicon machine running Tahoe or later, with an M4 as the floor and an M5 Pro listed as the recommended chip. On either platform, memory headroom matters more than most sims, because Groundwork Simulator vehicle physics is continuously recalculating ground and water state.
+
+The game is listed at $24.99, with a 20% introductory discount running through October 29, 2026. The developers expect Early Access to last roughly three to six months, with more maps and vehicles planned, and they have pointed players to Steam Community discussions and the official Discord for feedback and bug reports.
+
+## FAQ
+
+**Is Groundwork Simulator vehicle physics arcade or simulation?**
+
+Simulation-leaning. The excavation engine models resistance and hydraulic limits, and terrain changes persist, so technique matters more than reflexes. The story mode's guided tutorial is the best place to learn the feel before tackling a full-scale dig.
+
+**Does the physics change in online co-op?**
+
+The core model stays the same, but roles split. One player can run the excavator while another handles transport between the dig face and the wash plant, which makes Groundwork Simulator vehicle physics a coordination exercise as much as a driving one.
+
+**Will my PC run it smoothly?**
+
+Check the table above first. The developers specifically flag CPU load from soil and water simulation, so a 16 GB minimum is not marketing padding. If you are near the minimum spec, expect to feel it most during large digs and active washing.
+
+**How long will the game stay in Early Access?**
+
+The developers estimate three to six months, depending on progress and feedback, and say there are no plans to change the base price when the full version arrives.
+
+**Does the ground really stay changed?**
+
+Yes — that is the defining feature of Groundwork Simulator vehicle physics. Trenches, ramps, and stockpiles persist, and the site you leave behind shapes every job that follows. Dig with tomorrow's route in mind, and the terrain becomes an asset instead of an obstacle.

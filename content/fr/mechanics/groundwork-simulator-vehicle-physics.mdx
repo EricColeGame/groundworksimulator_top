@@ -1,0 +1,128 @@
+export const metadata = {
+  title: "Physique des véhicules de Groundwork Simulator : creusement, adhérence et manutention des charges",
+  description: "Comment la physique des véhicules de Groundwork Simulator façonne chaque godet, chaque pente et chaque transport — retour d'effort à l'excavation, déformation du terrain, conseils d'adhérence et configuration système.",
+  category: "mechanics",
+  date: "2026-10-23",
+}
+
+La plupart des jeux de machinerie lourde laissent un godet trancher une colline comme une cuillère dans un flan. La physique des véhicules de Groundwork Simulator a été conçue pour faire exactement l'inverse : chaque pelletée pèse son poids, chaque pente repousse, et chaque vérin hydraulique a une limite. Ce choix de conception est au cœur de la sortie en accès anticipé du jeu, disponible sur [Steam](https://store.steampowered.com/app/5306540/Groundwork_Simulator/) depuis le 22 octobre 2026, et c'est la raison pour laquelle apprendre le modèle physique fera de vous un opérateur plus rapide et plus précis dès votre première tranchée.
+
+Si vous venez de jeux de pelleteuses de type arcade, la physique des véhicules de Groundwork Simulator vous paraîtra lente au début. C'est justement l'objectif. La simulation récompense la planification plutôt que les réflexes, et les joueurs qui s'épanouissent sont ceux qui traitent la machine comme un partenaire avec des limites plutôt que comme une pelle magique.
+
+## Ce que la physique des véhicules de Groundwork Simulator simule réellement
+
+Les développeurs décrivent un moteur d'excavation avec retour d'effort hydraulique simulé, et la page du magasin est d'une franchise inhabituelle sur les conséquences : la simulation du sol et de l'eau sollicite fortement votre processeur, pas votre carte graphique. En pratique, cela signifie que le jeu suit plusieurs systèmes interdépendants simultanément chaque fois que vous actionnez un levier.
+
+| Système physique | Ce qu'il modélise | Comment il change votre façon de jouer |
+|---|---|---|
+| Moteur d'excavation | La résistance lorsque le godet mord et se remplit | Vous devez adapter l'angle et la puissance au matériau |
+| Retour d'effort hydraulique | La puissance disponible pour couper et lever | Un godet plein demande une technique différente d'un godet vide |
+| Déformation du terrain | Des modifications permanentes du maillage du sol | Chaque route que vous creusez est une route avec laquelle vous vivrez |
+| Modèle d'adhérence | L'accroche sur la boue, les pentes et les sols meubles | La planification d'itinéraire devient une vraie décision |
+| Physique des charges et du transport | Le poids de la machine sur une remorque et la déclivité | Les virages serrés et les descentes exigent de la patience |
+| Gestion de l'eau | Pompes, tuyaux et alimentation de l'usine de lavage | Une usine à sec arrête nette votre récupération d'or |
+
+La version en accès anticipé est livrée avec une carte jouable, une gamme de véhicules et de machinerie lourde, et un mode histoire qui vous guide à travers les mécaniques de base. Cette ouverture guidée est le moyen le plus rapide de ressentir le comportement de la physique avant de vous lancer dans un gros chantier.
+
+## Retour d'effort hydraulique : comment le godet vous répond
+
+C'est la section qui distingue la physique des véhicules de Groundwork Simulator de toutes les simulations de pelleteuses jolies mais sans poids. Lorsque le godet rencontre le sol, la résistance s'accumule, et la machine vous le fait savoir. Poussez trop abruptement dans un matériau dur et vous calez la coupe. Recourbez trop tard et vous traînez une charge de poussière au lieu d'un godet plein.
+
+La règle pratique : coupez peu profond, recourbez tôt, et ne levez qu'une fois le godet chargé. Considérez le cycle comme quatre décisions distinctes — angle d'approche, profondeur de morsure, timing du recourbement et levée — plutôt qu'un seul mouvement continu.
+
+| Scénario de creusement | Angle du godet | Demande hydraulique | Conseil d'opérateur |
+|---|---|---|---|
+| Creuser dans une colline dure | Faible, presque à plat | Élevée et soutenue | Faites des passes fines répétées plutôt qu'une seule morsure profonde |
+| Ramasser un tas meuble | Plus raide, incliné vers le bas | Modérée | Recourbez pendant que vous levez pour garder la charge centrée |
+| Nettoyer le fond d'une tranchée | À plat, au niveau du profil | Faible | Surveillez les derniers centimètres — le fond que vous laissez est votre route de demain |
+| Charger un camion de transport | Modéré, contrôlé | Courtes impulsions | Pivotez lentement ; un godet qui déborde perd de la matière en chemin |
+| Transporter un godet plein | Horizontal et bas | Élevée pour la levée | Déplacez-vous bas et lentement, puis déversez avec la machine stabilisée |
+
+Si le godet refuse de se remplir, la solution est rarement d'accélérer davantage. C'est presque toujours une morsure moins profonde ou un angle d'attaque différent. Les retours de la communauté sur des simulations similaires tendent à le confirmer : la machine punit la force et récompense la finesse.
+
+## Déformation du terrain : chaque pelletée réécrit le chantier
+
+La physique des véhicules de Groundwork Simulator ne vous laisse pas creuser puis oublier. Les tranchées, les flancs de colline entaillés et les tas persistent, et le terrain que vous laissez derrière vous devient la fondation de votre prochain travail. Un bord de tranchée bâclé devient une rampe que vous ne pouvez pas gravir. Un tas déversé au mauvais endroit devient un obstacle entre votre front de taille et l'usine de lavage.
+
+Planifiez votre site comme le ferait un vrai opérateur :
+
+- **Creusez en pensant à l'itinéraire de transport.** Laissez une voie large et légèrement nivelée entre la coupe et l'usine avant de commencer à chercher le minerai.
+- **Construisez tôt une plateforme plane pour l'usine de lavage.** L'eau et la matière se comportent mieux sur un terrain plat.
+- **Taillez des gradins, pas des falaises.** Une pente étagée donne à vos pneus de quoi s'accrocher pour remonter.
+- **Ne sapez jamais votre propre route d'accès.** C'est le retard auto-infligé le plus courant dans les simulations de terrain.
+
+| Élément de terrain | Comment il se forme | Effet sur la physique des véhicules | Conseil de planification |
+|---|---|---|---|
+| Tranchée | Pelletées répétées le long d'une ligne | Les fonds étroits piègent les roues et limitent l'espace de pivotement | Gardez une extrémité ouverte comme rampe de sortie |
+| Tas de matériau | Matériau déversé | Sol meuble et instable sous les pneus | Gardez les tas hors de votre voie de transport principale |
+| Gradin ou rampe | Coupe étagée volontaire | Rétablit l'adhérence sur les faces abruptes | Construisez-les avant d'en avoir besoin |
+| Bourbier | Déversement d'eau ou mort-terrain humide | L'adhérence chute brutalement | Écartez les tuyaux de votre trajectoire de conduite |
+| Talus de coupe | Enlèvement d'un flanc de colline | Les pentes raides chargent la transmission | Descendez chargé, montez à vide quand c'est possible |
+
+## Adhérence, boue et transport de lourdes charges
+
+La boue, les pentes et les sols accidentés transforment chaque itinéraire en décision. La physique des véhicules de Groundwork Simulator modélise l'adhérence assez finement pour qu'une lourde charge sur une pente mouillée vous coûte réellement du temps — et parfois une machine embourbée. La page du magasin suggère le bon état d'esprit : parfois, le prochain travail consiste à améliorer le sol sous vos roues avant de reprendre le creusement.
+
+| État de la surface | Risque d'adhérence | Approche recommandée |
+|---|---|---|
+| Sol dur sec | Faible | Maintenez la vitesse ; c'est votre voie rapide |
+| Argile humide | Élevé | Réduisez la charge, évitez les coups de volant brusques |
+| Mort-terrain meuble | Modéré | Gardez l'élan, évitez de vous arrêter à mi-pente |
+| Boue près de la ligne d'eau | Sévère | Détournez le tuyau ou posez d'abord un matériau plus ferme |
+| Pente raide avec remorque | Élevé | Descendez en ligne droite, freinez tôt et en douceur |
+
+Deux habitudes rapportent immédiatement. Premièrement, faites vos trajets chargés en descente et vos trajets à vide en montée chaque fois que le site le permet. Deuxièmement, quand un itinéraire commence à échouer, réparez l'itinéraire au lieu de vous battre contre lui — quelques pelletées de remblai au bon endroit valent mieux que dix minutes de patinage.
+
+## Transport sur remorque et le coût de performance d'une physique réaliste
+
+Déplacer de la machinerie entre les chantiers est un casse-tête physique à part entière. Vous chargez un équipement lourd sur une remorque, vous le tractez avec un camion, puis vous négociez virages serrés, pentes et terrains accidentés avec tout ce poids derrière vous.
+
+### Charger et transporter sans ruiner le trajet
+
+| Étape | Action | Pourquoi c'est important |
+|---|---|---|
+| 1 | Positionnez la remorque sur un sol plat et ferme | Une remorque inclinée aggrave l'angle de la rampe |
+| 2 | Alignez la machine bien droit face à la rampe | Les approches de travers sont la cause des glissements d'équipement |
+| 3 | Montez lentement et en ligne droite, sans corrections de direction | De petites entrées sur la rampe deviennent de grands écarts en haut |
+| 4 | Vérifiez que la charge est centrée avant de bouger | Un poids décentré ruine vos virages |
+| 5 | Repérez l'itinéraire pour les virages serrés et les déclivités | Une lourde charge change ce qui compte comme « praticable » |
+| 6 | Déchargez sur un sol solide, pas sur du remblai meuble | Une remorque enfoncée, c'est un très long après-midi |
+
+### Pourquoi la physique des véhicules de Groundwork Simulator est exigeante pour votre processeur
+
+Les notes système des développeurs sont d'une honnêteté rafraîchissante : la simulation détaillée du sol et de l'eau impose une lourde charge au processeur, et le jeu est exigeant même quand les visuels suggèrent le contraire. Cela a une implication pratique — si vous avez des saccades pendant les gros creusements ou lorsque l'usine de lavage tourne, une simple mise à niveau de la carte graphique n'est peut-être pas la réponse.
+
+| Configuration requise | Minimum (Windows) | Recommandée (Windows) |
+|---|---|---|
+| Système d'exploitation | Windows 10 | Windows 11 |
+| Processeur | Intel Core i5-8400 / AMD Ryzen 5 2600 | Intel Core i5-12400 / AMD Ryzen 5 5600 |
+| Mémoire | 16 Go de RAM | 24 Go de RAM |
+| Carte graphique | NVIDIA GTX 1070, 8 Go de VRAM | NVIDIA RTX 3060 ou AMD RX 6600, 8 Go de VRAM |
+| DirectX | Version 12 | Version 12 |
+| Stockage | 10 Go d'espace disponible | 10 Go d'espace disponible |
+
+Les joueurs Mac ont besoin d'une machine Apple Silicon fonctionnant sous Tahoe ou ultérieur, avec une puce M4 comme minimum et une M5 Pro listée comme puce recommandée. Sur l'une ou l'autre plateforme, la marge de mémoire compte plus que dans la plupart des simulations, car la physique des véhicules de Groundwork Simulator recalcule continuellement l'état du sol et de l'eau.
+
+Le jeu est affiché à 24,99 $, avec une remise de lancement de 20 % jusqu'au 29 octobre 2026. Les développeurs prévoient que l'accès anticipé durera environ trois à six mois, avec davantage de cartes et de véhicules prévus, et ils ont orienté les joueurs vers les discussions de la communauté Steam et le Discord officiel pour les retours et les rapports de bugs.
+
+## FAQ
+
+**La physique des véhicules de Groundwork Simulator est-elle arcade ou simulation ?**
+
+Plutôt simulation. Le moteur d'excavation modélise la résistance et les limites hydrauliques, et les changements du terrain persistent, donc la technique compte plus que les réflexes. Le tutoriel guidé du mode histoire est le meilleur endroit pour apprendre les sensations avant d'aborder un creusement à grande échelle.
+
+**La physique change-t-elle en coopération en ligne ?**
+
+Le modèle de base reste le même, mais les rôles se répartissent. Un joueur peut piloter la pelleteuse pendant qu'un autre gère le transport entre le front de taille et l'usine de lavage, ce qui fait de la physique des véhicules de Groundwork Simulator un exercice de coordination autant que de conduite.
+
+**Mon PC le fera-t-il tourner correctement ?**
+
+Consultez d'abord le tableau ci-dessus. Les développeurs signalent spécifiquement la charge processeur due à la simulation du sol et de l'eau, donc un minimum de 16 Go n'est pas du remplissage marketing. Si vous êtes proche de la configuration minimale, attendez-vous à le ressentir surtout pendant les gros creusements et le lavage actif.
+
+**Combien de temps le jeu restera-t-il en accès anticipé ?**
+
+Les développeurs estiment trois à six mois, selon les progrès et les retours, et affirment qu'il n'y a aucun projet de modifier le prix de base à la sortie de la version complète.
+
+**Le terrain reste-t-il vraiment modifié ?**
+
+Oui — c'est la caractéristique déterminante de la physique des véhicules de Groundwork Simulator. Les tranchées, rampes et tas persistent, et le site que vous laissez derrière vous façonne chaque travail qui suit. Creusez en pensant à l'itinéraire de demain, et le terrain devient un atout plutôt qu'un obstacle.
