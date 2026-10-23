@@ -1,1 +1,516 @@
-{}
+{
+  "site": {
+    "name": "Groundwork Simulator Wiki",
+    "shortName": "Groundwork Simulator",
+    "tagline": "Leitfäden für Aushub, Baumaschinen und Goldabbau",
+    "description": "Entdecken Sie Groundwork-Simulator-Leitfäden zu Aushub, Baumaschinen, Goldabbau, Geländegestaltung, Aufbau von Waschanlagen, Transport und kooperativem Gameplay.",
+    "legalNotice": "Inoffizielles Fan-Wiki. Nicht mit dem Groundwork Simulator-Entwickler oder Herausgeber verbunden."
+  },
+  "nav": {
+    "guide": "Leitfäden",
+    "mechanics": "Mechaniken",
+    "modes": "Modi",
+    "platforms": "Plattformen",
+    "release": "Release",
+    "community": "Community",
+    "media": "Medien"
+  },
+  "home": {
+    "meta": {
+      "title": "Groundwork Simulator Wiki – Anleitungen, Fahrzeuge und Bergbau",
+      "description": "Entdecken Sie Groundwork-Simulator-Leitfäden zu Aushub, Baumaschinen, Goldabbau, Fahrzeugen, Aufbau von Waschanlagen, Geländegestaltung, Transport und Koop-Gameplay."
+    },
+    "hero": {
+      "eyebrow": "Open-World-Simulator für Baumaschinen",
+      "title": "Groundwork Simulator Wiki",
+      "description": "Meistern Sie Aushub, Baumaschinen, Goldabbau, Geländegestaltung, den Aufbau von Waschanlagen und Koop für vier Spieler mit praktischen Groundwork-Simulator-Leitfäden.",
+      "stats": [
+        "Erscheinungsdatum: 22. Oktober 2026",
+        "4-Spieler-Koop",
+        "1 spielbare Karte",
+        "3–6 Monate Early Access"
+      ],
+      "primaryCta": "Anfängerleitfaden",
+      "secondaryCta": "Spielen Sie auf Steam",
+      "tertiaryCta": "Offizielle Website",
+      "videoLabel": "Offizielle Medien"
+    },
+    "updates": {
+      "title": "Neueste Updates",
+      "browse": "Durchsuchen Sie alle Leitfäden",
+      "viewAll": "Alle anzeigen"
+    },
+    "start": {
+      "eyebrow": "Beginnen Sie hier",
+      "title": "Ihre Groundwork Simulator-Reise",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Anfängerleitfaden",
+          "description": "Spielen Sie das Story-Tutorial, lernen Sie die hydraulische Schaufelsteuerung und bereiten Sie einen sicheren ersten Aushub vor, bevor Sie Ausrüstung binden."
+        },
+        {
+          "number": "2",
+          "title": "Fortschrittsleitfaden",
+          "description": "Bauen Sie Geld und Reputation in der richtigen Reihenfolge auf, rüsten Sie Ihre vorhandene Maschine auf und vermeiden Sie übergroße Frühkäufe."
+        },
+        {
+          "number": "3",
+          "title": "Leitfaden zum Goldabbau",
+          "description": "Testen Sie Lagerstätten im Raster, tragen Sie Abraum ab, schneiden Sie goldhaltigen Boden heraus und bringen Sie das getestete Material zur Waschanlage."
+        },
+        {
+          "number": "4",
+          "title": "Koop-Rollen",
+          "description": "Weisen Sie vor der ersten Schaufel Aushub-, Transport-, Wasser- und Waschanlagenaufgaben zu, damit eine gemeinsame Baustelle produktiv bleibt."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Beliebte Seiten",
+      "title": "Jetzt im Trend",
+      "quickLinks": [
+        "Grundlagen des Aushubs",
+        "Bester Bagger",
+        "Goldminenroute",
+        "Leitfaden für Waschanlagen"
+      ],
+      "cards": [
+        {
+          "badge": "Anfänger",
+          "title": "Anfängerleitfaden",
+          "description": "Kontrollen, erste Verträge und der schnellste Weg von einem leeren Standort zu einem produktiven Betrieb.",
+          "href": "/guide/groundwork-simulator-beginner-guide"
+        },
+        {
+          "badge": "Aktualisiert",
+          "title": "Leitfaden zum Goldabbau",
+          "description": "Wo man schürfen kann, wie man Lagerstätten erkennt und welche Ausrüstung für eine effiziente Erzverarbeitung erforderlich ist.",
+          "href": "/guide/groundwork-simulator-gold-mining-guide"
+        },
+        {
+          "badge": "Aktualisiert",
+          "title": "Maschinendatenbank",
+          "description": "Bagger, Radlader und Muldenkipper im Vergleich nach Aushubleistung, Kapazität und Handhabung.",
+          "href": "/mechanics/groundwork-simulator-heavy-machinery"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Welchen Bagger sollten Sie wählen?",
+          "description": "Passen Sie Maschinengröße und Anbaugeräte an den Auftrag an, anstatt zu viel Geld für die falsche Ausrüstung auszugeben.",
+          "href": "/mechanics/groundwork-simulator-mining-equipment"
+        },
+        {
+          "badge": "Neu",
+          "title": "Transport & Logistik",
+          "description": "Bauen Sie stabile Transportrouten auf und sorgen Sie dafür, dass Muldenkipper, Radlader und Verarbeitungsstationen zusammenarbeiten.",
+          "href": "/guide/groundwork-simulator-how-to-make-money"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Goldabbaustandorte",
+          "description": "Ein praktischer Überblick über Schürfgebiete, Lagerstättenarten und Transportplanung.",
+          "href": "/mechanics/groundwork-simulator-gold-washing"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Beste Waschanlagen-Layouts",
+          "description": "Layouts, die den Durchsatz verbessern, Engpässe reduzieren und zukünftige Erweiterungen erleichtern.",
+          "href": "/guide/groundwork-simulator-mining-setup"
+        },
+        {
+          "badge": "Neu",
+          "title": "Tipps zur Geländegestaltung",
+          "description": "Planieren Sie Hänge, öffnen Sie Zufahrtsstraßen und bereiten Sie einen stabilen Untergrund vor, bevor Sie schweres Gerät anbringen.",
+          "href": "/guide/groundwork-simulator-digging-guide"
+        },
+        {
+          "badge": "Neu",
+          "title": "4-Spieler-Koop-Leitfaden",
+          "description": "Teilen Sie Aushub-, Transport- und Verarbeitungsaufgaben auf, sodass eine vierköpfige Mannschaft produktiv bleibt.",
+          "href": "/modes/groundwork-simulator-multiplayer"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Was ist Groundwork Simulator?",
+      "paragraphs": [
+        "Groundwork Simulator ist ein Open-World-Baumaschinenspiel rund um Aushub, Erdbewegung, Goldsuche und Goldgewinnung. Sie bedienen Bagger, Radlader, Bulldozer, Muldenkipper und Anhänger auf einer dauerhaften Baustelle, auf der jede Schaufel das Gelände verändert.",
+        "Der Kernkreislauf reicht vom Testen einer Lagerstätte über das Abtragen von Abraum und das Herausschneiden des goldhaltigen Bodens bis zum Transport und Waschen in Schleusenkästen und auf einem Schütteltisch. Pumpen und Schläuche versorgen die Anlage, während der Story-Modus die Steuerung vermittelt und Spieler im Online-Koop die Arbeit aufteilen."
+      ],
+      "stats": [
+        {
+          "label": "Plattform",
+          "value": "Windows / macOS (Steam)"
+        },
+        {
+          "label": "Genre",
+          "value": "Simulation schwerer Maschinen"
+        },
+        {
+          "label": "Erscheinungsdatum",
+          "value": "22. Okt. 2026"
+        },
+        {
+          "label": "Online-Koop",
+          "value": "Ja"
+        },
+        {
+          "label": "Spielbare Karten",
+          "value": "1"
+        },
+        {
+          "label": "Geplanter Early Access",
+          "value": "3–6 Monate"
+        },
+        {
+          "label": "Grundpreis",
+          "value": "$24.99"
+        }
+      ],
+      "cta": "Entdecken Sie alle Leitfäden"
+    },
+    "explore": {
+      "title": "Entdecken Sie das Groundwork Simulator-Wiki",
+      "description": "Praktische Groundwork Simulator-Anleitungen für die gesamte Bergbaukette: Einsteigersteuerung, Goldsuche, Maschinen, Koop-Rollen, Wassersysteme, PC-Anforderungen und die Early-Access-Roadmap.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Groundwork Simulator Anfängerleitfaden",
+          "description": "Lernen Sie den zentralen Spielablauf kennen: Gelände erkunden, nach Goldlagerstätten bohren, Erde ausheben, Material transportieren und Gold gewinnen. Errichten Sie mit dem Tutorial und einfacher Technik eine sichere erste Baustelle.",
+          "href": "/guide/groundwork-simulator-beginner-guide",
+          "displayType": "Schritt für Schritt",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Schließen Sie den Story-Modus ab und lesen Sie die Steuerungsübersicht, bevor Sie einen großen Auftrag annehmen."
+            },
+            {
+              "label": "2",
+              "detail": "Verringern Sie die Kamera- und Armempfindlichkeit und heben Sie dann eine flache Testfläche im offenen Boden aus."
+            },
+            {
+              "label": "3",
+              "detail": "Erkunden Sie den Standort und planen Sie Abbau, Halde und Transportroute, bevor Sie die Maschinen bewegen."
+            },
+            {
+              "label": "4",
+              "detail": "Schneiden Sie in flachen Schichten und achten Sie auf die hydraulische Rückmeldung, anstatt eine volle Schaufel zu zwingen."
+            },
+            {
+              "label": "5",
+              "detail": "Beladen Sie den LKW gleichmäßig, heben Sie die Schaufel vor dem Schwenken an und halten Sie die Abbaufläche frei."
+            },
+            {
+              "label": "6",
+              "detail": "Testen Sie Lagerstätten, bevor Sie den Abbau ausweiten, und beschicken Sie die Waschanlage gleichmäßig."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Groundwork Simulator Leitfaden zum Goldabbau",
+          "description": "Finden Sie vielversprechende Lagerstätten, testen Sie den Boden, heben Sie goldhaltiges Material aus und verarbeiten Sie es im Waschsystem. Verbinden Sie Abbaufläche, Transportroute, Pumpen, Schläuche, Schleusenkästen und Schütteltisch zu einem wiederholbaren Ablauf.",
+          "href": "/guide/groundwork-simulator-gold-mining-guide",
+          "displayType": "Schritt für Schritt",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Testen Sie mögliche Abbaubereiche und stellen Sie sicher, dass Platz zum Aushub, Laden, Transportieren und Bearbeiten vorhanden ist."
+            },
+            {
+              "label": "2",
+              "detail": "Räumen Sie den Abraum ab und nivellieren Sie eine Arbeitsplattform, bevor Sie den Bagger einsetzen."
+            },
+            {
+              "label": "3",
+              "detail": "Schneiden Sie den Erdboden sauber ab und halten Sie die Abbaufläche erreichbar, ohne ständig neu positionieren zu müssen."
+            },
+            {
+              "label": "4",
+              "detail": "Transportieren Sie geprüftes Material auf einer kurzen, klaren Strecke und vermeiden Sie die Überladung eines Muldenkipper."
+            },
+            {
+              "label": "5",
+              "detail": "Beschicken Sie die Waschanlage gleichmäßig, damit die Schleusenkästen die schwerere Fraktion abtrennen können."
+            },
+            {
+              "label": "6",
+              "detail": "Geben Sie das Konzentrat auf dem Schütteltisch fertig und halten Sie die Auffangphase zwischen den Chargen frei."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Groundwork Simulator: Fahrzeuge",
+          "description": "Verstehen Sie die praktische Rolle von Baggern, Bulldozern, Radladern und Muldenkippern. Verwenden Sie diese Prioritätsrangliste zu Beginn des Spiels, um jede Maschine dem Aushub, Zugangsarbeiten, der Handhabung von Lagerbeständen und dem Transport zuzuordnen.",
+          "href": "/mechanics/groundwork-simulator-heavy-machinery",
+          "displayType": "Etagenraster",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Bagger – Schneidet Erdreich, Gräben und belädt Schlepper mit hydraulischer Schaufelsteuerung."
+            },
+            {
+              "label": "A",
+              "detail": "Bulldozer – Entfernt Abraum, öffnet den Zugang und planiert stabile Arbeitsflächen."
+            },
+            {
+              "label": "B",
+              "detail": "Radlader – Errichtet Pufferhaufen und sorgt für die Versorgung des Trichters der Waschanlage."
+            },
+            {
+              "label": "C",
+              "detail": "Transportwagen – Bewegt Schüttgut und zieht den Anhänger zwischen den Einsatzorten."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Groundwork Simulator Multiplayer-Anleitung",
+          "description": "Gehen Sie Solo-Operationen und Online-Koop an, indem Sie die Bergbaukette in klare Rollen aufteilen. Koordinieren Sie Aushubarbeiten, Transporte, Tests, Wasserversorgung und den Betrieb der Waschanlage, damit die Mannschaft nie doppelte Arbeit leistet.",
+          "href": "/modes/groundwork-simulator-multiplayer",
+          "displayType": "Kartenliste",
+          "highlights": [
+            {
+              "label": "Baggerfahrer",
+              "detail": "Bedient den Bagger, hebt Gräben aus und lädt Material, ohne den Materialfluss zu unterbrechen."
+            },
+            {
+              "label": "Transporteur",
+              "detail": "Bewegt geprüftes Material mit einem Muldenkipper oder Radlader zwischen Abbaufläche und Waschanlage."
+            },
+            {
+              "label": "Waschen",
+              "detail": "Betreibt die Schleusenkästen und den Schütteltisch mit einer gleichmäßigen Vorschubgeschwindigkeit."
+            },
+            {
+              "label": "Wasser",
+              "detail": "Positioniert Pumpen und Schläuche so, dass die Waschanlage nie trocken läuft."
+            },
+            {
+              "label": "Testen",
+              "detail": "Vor dem Maschineneinsatz werden Bodenproben entnommen, damit das Team keine Maschinen auf sterilen Boden schickt."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Groundwork Simulator Kontrollen und Aushubtipps",
+          "description": "Behandeln Sie die Grundlagen des Baggerbetriebs, einschließlich Schaufelwinkel, hydraulische Rückmeldung, Aushubtechniken und Geländemanagement. Wenden Sie praktische Gewohnheiten für Schlamm, Hänge und unebenen Boden an.",
+          "href": "/guide/groundwork-simulator-digging-guide",
+          "displayType": "Kartenliste",
+          "highlights": [
+            {
+              "label": "Ausleger",
+              "detail": "Heben und senken Sie den Ausleger sanft und halten Sie die beladene Schaufel bei schweren Hebevorgängen nah beieinander."
+            },
+            {
+              "label": "Arm",
+              "detail": "Nutzen Sie den Arm für Reichweite und Hebelwirkung und ziehen Sie ihn dann zurück, wenn die Schaufel stehen bleibt."
+            },
+            {
+              "label": "Schaufel",
+              "detail": "Den Schaufel flach drücken, um ihn zu ebnen. Winkeln Sie es vorsichtig an, um zu beißen, ohne es zu überlasten."
+            },
+            {
+              "label": "Schaukel",
+              "detail": "Vor dem Schwenken anheben und den Lichtbogen mit voller Schaufel verlangsamen, um ein Verschütten zu vermeiden."
+            },
+            {
+              "label": "Spuren",
+              "detail": "Arbeiten Sie bergauf oder schaffen Sie eine Ebene, bevor Sie an einem Seitenhang ausheben."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Groundwork Simulator Leitfaden zum Wassersystem",
+          "description": "Versorgen Sie den Goldwaschbetrieb mit einer zuverlässigen Pumpen- und Schlauchanordnung. Führen Sie eine kleine Testcharge durch, beobachten Sie den Schleusenfluss und beheben Sie Wasserprobleme, bevor Sie mit dem kontinuierlichen Aushub beginnen.",
+          "href": "/guide/groundwork-simulator-mining-setup",
+          "displayType": "Schritt für Schritt",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Stellen Sie die Waschanlage auf ebenem Boden auf, bevor Sie Wasser leiten oder Vorräte anlegen."
+            },
+            {
+              "label": "2",
+              "detail": "Positionieren Sie die Pumpe mit einem freien Einlass und einer kurzen, kontrollierbaren Schlauchstrecke."
+            },
+            {
+              "label": "3",
+              "detail": "Halten Sie Schläuche von Transportwegen fern und überprüfen Sie die Anschlüsse auf Knicke oder lange Leitungen."
+            },
+            {
+              "label": "4",
+              "detail": "Führen Sie eine kleine Testcharge durch und beobachten Sie, wie sich das Material durch die Schleusenkästen bewegt."
+            },
+            {
+              "label": "5",
+              "detail": "Reduzieren Sie die Vorschubgeschwindigkeit, wenn sich das Material staut, und stellen Sie dann den Wasserfluss wieder her, bevor Sie fortfahren."
+            },
+            {
+              "label": "6",
+              "detail": "Reinigen Sie den Schütteltisch zwischen den Chargen und halten Sie jeden Wiederherstellungsschritt getrennt."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Groundwork Simulator Systemanforderungen",
+          "description": "Überprüfen Sie die offiziellen Mindest- und empfohlenen Spezifikationen von Windows und macOS für Groundwork Simulator. Planen Sie die CPU- und Speicherlast ein, die durch eine detaillierte Boden- und Wassersimulation entsteht.",
+          "href": "/platforms/groundwork-simulator-system-requirements",
+          "displayType": "Codekarten",
+          "highlights": [
+            {
+              "label": "Win min.",
+              "detail": "Windows 10, Intel Core i5-8400 oder AMD Ryzen 5 2600, 16 GB RAM, GTX 1070 8 GB, DirectX 12."
+            },
+            {
+              "label": "Win empf.",
+              "detail": "Windows 11, Intel Core i5-12400 oder AMD Ryzen 5 5600, 24 GB RAM, RTX 3060 oder RX 6600 8 GB."
+            },
+            {
+              "label": "Mac min.",
+              "detail": "macOS Tahoe oder neuer, Apple M4, 16 GB einheitlicher Speicher und die integrierte M4-GPU."
+            },
+            {
+              "label": "Mac empf.",
+              "detail": "macOS Tahoe oder neuer, Apple M5 Pro, 24 GB einheitlicher Speicher und die integrierte M5 Pro-GPU."
+            },
+            {
+              "label": "Speicher",
+              "detail": "10 GB verfügbarer Speicherplatz auf Windows; Planen Sie den gleichen Platzbedarf auf dem Mac."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Groundwork Simulator Updates und Roadmap",
+          "description": "Befolgen Sie den offiziellen Early-Access-Plan, Entwicklungsankündigungen und geplante Inhalte. Verfolgen Sie den aktuellen One-Map-Build, die wachsende Fahrzeugliste und die Feedbackkanäle, die für zukünftige Updates verwendet werden.",
+          "href": "/release/groundwork-simulator-roadmap",
+          "displayType": "Kartenliste",
+          "highlights": [
+            {
+              "label": "Roadmap",
+              "detail": "Der Early Access wird je nach Entwicklungsfortschritt auf etwa drei bis sechs Monate geschätzt."
+            },
+            {
+              "label": "Karten",
+              "detail": "Der Launch-Build verfügt über eine spielbare Karte; Weitere Karten sind im Early Access geplant."
+            },
+            {
+              "label": "Fahrzeuge",
+              "detail": "Der Maschinenpark wird während des Early Access um zusätzliche Fahrzeuge erweitert."
+            },
+            {
+              "label": "Rückmeldung",
+              "detail": "Steam-Diskussionen und das offizielle Discord sind die genannten Kanäle für Berichte und Vorschläge."
+            },
+            {
+              "label": "Preise",
+              "detail": "Der Grundpreis beträgt 24,99 US-Dollar. Bei der Release der Vollversion sind keine Änderungen geplant."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "description": "Schnelle Antworten auf die häufigsten Fragen zu Groundwork Simulator.",
+      "items": [
+        {
+          "question": "Was ist Groundwork Simulator?",
+          "answer": "Groundwork Simulator ist ein Open-World-Baumaschinenspiel über Aushub, Erdbewegung, Goldsuche und Goldgewinnung. Die Spieler bedienen Bagger, Bulldozer, Radlader, Muldenkipper und Anhänger und waschen anschließend den goldhaltigen Boden durch Schleusenkästen und einen Schütteltisch."
+        },
+        {
+          "question": "Ist Groundwork Simulator Multiplayer?",
+          "answer": "Ja. Groundwork Simulator umfasst Online-Koop, sodass ein Team Aushub, Transport, Wasserversorgung, Tests und Waschanlagenbetrieb auf derselben Baustelle aufteilen kann."
+        },
+        {
+          "question": "Was sollte ich zuerst in Groundwork Simulator tun?",
+          "answer": "Beginnen Sie mit dem Story-Modus von Groundwork Simulator, verringern Sie Kamera- und Armempfindlichkeit und üben Sie auf ebenem Boden einen vollständigen Zyklus aus Schneiden, Heben, Schwenken und Entleeren. Testen Sie dann Lagerstätten, bevor Sie ein komplettes Bergbau-Setup aufbauen."
+        },
+        {
+          "question": "Wie funktioniert die Goldrückgewinnung in Groundwork Simulator?",
+          "answer": "Die Goldgewinnung in Groundwork Simulator folgt einer Kette: Boden testen, Abraum entfernen, goldhaltigen Boden herausarbeiten, zur Waschanlage transportieren, Material durch die Schleusenkästen laufen lassen und das Konzentrat auf dem Schütteltisch fertigstellen."
+        },
+        {
+          "question": "Auf welchen Plattformen kann Groundwork Simulator ausgeführt werden?",
+          "answer": "Groundwork Simulator ist im Steam Early Access für Windows und macOS verfügbar. Die Windows-Version benötigt DirectX 12, die macOS-Version Apple Silicon mit macOS Tahoe oder neuer."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Bereit, Groundwork Simulator zu meistern?",
+      "description": "Von Ihrem ersten Aushub über Goldabbau bis zu automatisierten Waschanlagen bietet unser Community-Wiki kostenlose, aktuelle Leitfäden für jede Phase Ihrer Erschließung.",
+      "primary": "Lesen Sie den Anfängerleitfaden",
+      "secondary": "Kaufen Sie auf Steam"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Groundwork Simulator-Anleitungen",
+    "overviewDescription": "Meistern Sie Groundwork Simulator mit Einsteigertipps, Aushubtechniken, Bergbau-Setups, Methoden zum Geldverdienen und Fortschrittstipps für jede Phase."
+  },
+  "mechanics": {
+    "overviewTitle": "Groundwork Simulator: Mechaniken",
+    "overviewDescription": "Verstehen Sie Aushub, Fahrzeugphysik, Goldwäsche, Baumaschinen, Bergbauausrüstung und die Wiederherstellung überschwemmter Abbaugebiete in Groundwork Simulator."
+  },
+  "modes": {
+    "overviewTitle": "Groundwork Simulator: Spielmodi",
+    "overviewDescription": "Entdecken Sie den Multiplayer-Koop-Modus, den Sandbox-Modus und die Open-World-Operationen von Groundwork Simulator für Einzelspieler und vierköpfige Crews."
+  },
+  "platforms": {
+    "overviewTitle": "Groundwork Simulator: Plattformen",
+    "overviewDescription": "Prüfen Sie die Verfügbarkeit von Groundwork Simulator auf Steam, PC, PS5, Xbox und Konsolen sowie Systemanforderungen und Plattformdetails."
+  },
+  "release": {
+    "overviewTitle": "Groundwork Simulator: Release & Updates",
+    "overviewDescription": "Verfolgen Sie Neuigkeiten zum Release von Groundwork Simulator, Steam-Early-Access-Pläne, Roadmap-Meilensteine und die neuesten Updates."
+  },
+  "community": {
+    "overviewTitle": "Groundwork Simulator-Community",
+    "overviewDescription": "Vernetzen Sie sich mit Groundwork-Simulator-Spielern über Reddit, Discord und die Steam-Community, um Builds, Entdeckungen und Problemlösungen auszutauschen."
+  },
+  "media": {
+    "overviewTitle": "Groundwork Simulator: Medien",
+    "overviewDescription": "Sehen Sie Trailer und Gameplay zu Groundwork Simulator, lesen Sie Reviews und verfolgen Sie Entwickler-Devlogs zu neuen Maschinen und Funktionen."
+  },
+  "shared": {
+    "wikiNavigation": "Wiki-Navigation",
+    "updated": "Aktualisiert",
+    "playOnRoblox": "Spielen Sie auf Steam",
+    "inThisSection": "In diesem Abschnitt",
+    "tableOfContents": "Inhaltsverzeichnis",
+    "nextSteps": "Nächste Schritte",
+    "needHelp": "Brauchen Sie Hilfe?",
+    "relatedReading": "Verwandte Artikel",
+    "relatedGuides": "Verwandte Leitfäden",
+    "readMore": "Lesen Sie mehr",
+    "officialMedia": "Offizielle Medien",
+    "home": "Startseite",
+    "noGuidesAvailable": "Noch keine Anleitungen verfügbar. Schauen Sie bald wieder vorbei!"
+  },
+  "footer": {
+    "aboutTitle": "Groundwork Simulator Wiki",
+    "about": "Groundwork Simulator Wiki ist ein unabhängiges, von Fans erstelltes Leitfadenportal zu Aushub, Baumaschinen, Goldabbau, Geländegestaltung, Aufbau von Waschanlagen, Transport und kooperativem Gameplay für vier Spieler.",
+    "quickLinks": "Schnellzugriff",
+    "guides": "Leitfäden",
+    "legal": "Rechtliches",
+    "copyright": "2026 Groundwork Simulator Wiki. Nicht mit dem Groundwork Simulator-Entwickler oder Herausgeber verbunden.",
+    "description": "Open-World-Baumaschinensimulator für PC und Steam. Heben Sie aus, transportieren Sie Material, gewinnen Sie Gold und bauen Sie Waschanlagen – mit bis zu vier Spielern.",
+    "playGame": "Spielen Sie auf Steam",
+    "officialDiscord": "Offizielles Discord",
+    "officialYoutube": "Offizielles YouTube",
+    "officialInstagram": "Offizielles Instagram",
+    "officialWebsite": "Offizielle Website",
+    "vvBuilder": "Community-Ressourcen",
+    "beginnerGuide": "Leitfaden-Zentrale",
+    "raceGuides": "Maschinenmechanik",
+    "bossGuides": "Release & Updates",
+    "buildGuide": "Plattformen und Anforderungen",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "termsOfService": "Nutzungsbedingungen"
+  }
+}

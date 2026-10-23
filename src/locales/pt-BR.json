@@ -1,1 +1,516 @@
-{}
+{
+  "site": {
+    "name": "Groundwork Simulator Wiki",
+    "shortName": "Groundwork Simulator",
+    "tagline": "Guias de escavação, maquinário pesado e mineração de ouro",
+    "description": "Explore os guias de Groundwork Simulator sobre escavação, máquinas pesadas, mineração de ouro, modelagem de terreno, instalações de lavagem, transporte e jogabilidade cooperativa.",
+    "legalNotice": "Wiki de fãs não oficial. Não afiliado ao desenvolvedor ou editor Groundwork Simulator."
+  },
+  "nav": {
+    "guide": "Guias",
+    "mechanics": "Mecânicas",
+    "modes": "Modos",
+    "platforms": "Plataformas",
+    "release": "Lançamento",
+    "community": "Comunidade",
+    "media": "Mídia"
+  },
+  "home": {
+    "meta": {
+      "title": "Groundwork Simulator Wiki - Guias, veículos e mineração",
+      "description": "Explore os guias de Groundwork Simulator sobre escavação, máquinas pesadas, mineração de ouro, veículos, instalações de lavagem, modelagem de terreno, transporte e jogabilidade cooperativa."
+    },
+    "hero": {
+      "eyebrow": "Simulador de máquinas pesadas de mundo aberto",
+      "title": "Groundwork Simulator Wiki",
+      "description": "Domine escavação, máquinas pesadas, mineração de ouro, modelagem de terreno, instalações de lavagem e cooperação para quatro jogadores com guias práticos de Groundwork Simulator.",
+      "stats": [
+        "Data de lançamento: 22 de outubro de 2026",
+        "Cooperativo para 4 jogadores",
+        "1 mapa jogável",
+        "3 a 6 meses de Acesso Antecipado"
+      ],
+      "primaryCta": "Guia para iniciantes",
+      "secondaryCta": "Jogue na Steam",
+      "tertiaryCta": "Site oficial",
+      "videoLabel": "Mídia oficial"
+    },
+    "updates": {
+      "title": "Últimas atualizações",
+      "browse": "Navegue por todos os guias",
+      "viewAll": "Ver tudo"
+    },
+    "start": {
+      "eyebrow": "Comece aqui",
+      "title": "Sua jornada Groundwork Simulator",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guia para iniciantes",
+          "description": "Jogue o tutorial de história guiada, aprenda o controle da caçamba hidráulica e prepare uma primeira escavação segura antes de entregar o equipamento."
+        },
+        {
+          "number": "2",
+          "title": "Guia de progressão",
+          "description": "Ganhe dinheiro e reputação na ordem certa, atualize a máquina que você possui e evite compras antecipadas exageradas."
+        },
+        {
+          "number": "3",
+          "title": "Guia de mineração de ouro",
+          "description": "Teste depósitos em uma grade, remova o estéril, extraia a terra aurífera e mantenha o material testado avançando para a usina de lavagem."
+        },
+        {
+          "number": "4",
+          "title": "Funções cooperativas",
+          "description": "Atribua tarefas de escavação, transporte, água e lavagem da planta antes do primeiro balde para manter produtivo um local compartilhado."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Páginas populares",
+      "title": "Tendências agora",
+      "quickLinks": [
+        "Noções básicas de escavação",
+        "Melhor Escavadeira",
+        "Rota de Mineração de Ouro",
+        "Guia da usina de lavagem"
+      ],
+      "cards": [
+        {
+          "badge": "Iniciante",
+          "title": "Guia para iniciantes",
+          "description": "Controles, primeiros contratos e o caminho mais rápido de um local vazio para uma operação produtiva.",
+          "href": "/guide/groundwork-simulator-beginner-guide"
+        },
+        {
+          "badge": "Atualizado",
+          "title": "Guia de mineração de ouro",
+          "description": "Onde prospectar, como ler as jazidas e os equipamentos necessários para um processamento eficiente do minério.",
+          "href": "/guide/groundwork-simulator-gold-mining-guide"
+        },
+        {
+          "badge": "Atualizado",
+          "title": "Banco de dados de máquinas",
+          "description": "Escavadeiras, carregadeiras e caminhões basculantes comparados por potência de escavação, capacidade e manuseio.",
+          "href": "/mechanics/groundwork-simulator-heavy-machinery"
+        },
+        {
+          "badge": "Populares",
+          "title": "Qual escavadeira você deve escolher?",
+          "description": "Combine o tamanho da máquina e os acessórios com o trabalho, em vez de gastar demais no equipamento errado.",
+          "href": "/mechanics/groundwork-simulator-mining-equipment"
+        },
+        {
+          "badge": "Novo",
+          "title": "Transporte e Logística",
+          "description": "Crie rotas de transporte estáveis e mantenha caminhões, carregadeiras e estações de processamento trabalhando juntos.",
+          "href": "/guide/groundwork-simulator-how-to-make-money"
+        },
+        {
+          "badge": "Populares",
+          "title": "Locais de mineração de ouro",
+          "description": "Uma visão prática das áreas de prospecção, tipos de depósitos e planejamento de transporte.",
+          "href": "/mechanics/groundwork-simulator-gold-washing"
+        },
+        {
+          "badge": "Populares",
+          "title": "Melhores layouts de usinas de lavagem",
+          "description": "Layouts que melhoram o rendimento, reduzem gargalos e facilitam a expansão futura.",
+          "href": "/guide/groundwork-simulator-mining-setup"
+        },
+        {
+          "badge": "Novo",
+          "title": "Dicas de modelagem de terreno",
+          "description": "Nivelar encostas, abrir estradas de acesso e preparar terreno estável antes de trazer equipamento pesado.",
+          "href": "/guide/groundwork-simulator-digging-guide"
+        },
+        {
+          "badge": "Novo",
+          "title": "Guia cooperativo para 4 jogadores",
+          "description": "Divida as tarefas de escavação, transporte e processamento para que uma equipe de quatro pessoas permaneça produtiva.",
+          "href": "/modes/groundwork-simulator-multiplayer"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "O que é Groundwork Simulator?",
+      "paragraphs": [
+        "Groundwork Simulator é um jogo de máquinas pesadas em mundo aberto baseado em escavação, movimentação de terra, prospecção e recuperação de ouro. Você opera escavadeiras, carregadeiras de rodas, tratores de esteira, caminhões basculantes e reboques em um canteiro permanente onde cada caçamba altera o terreno.",
+        "O ciclo principal vai do teste de um depósito à remoção do estéril, extração da terra aurífera, transporte do material e lavagem em caixas de eclusa e em uma mesa vibratória. Bombas e mangueiras mantêm a usina abastecida, enquanto o modo história ensina os controles e a cooperação on-line permite dividir o trabalho."
+      ],
+      "stats": [
+        {
+          "label": "Plataforma",
+          "value": "Windows / macOS (Steam)"
+        },
+        {
+          "label": "Gênero",
+          "value": "Simulação de máquinas pesadas"
+        },
+        {
+          "label": "Data de lançamento",
+          "value": "22 de outubro de 2026"
+        },
+        {
+          "label": "Cooperativa on-line",
+          "value": "Sim"
+        },
+        {
+          "label": "Mapas jogáveis",
+          "value": "1"
+        },
+        {
+          "label": "Acesso Antecipado planejado",
+          "value": "3–6 meses"
+        },
+        {
+          "label": "Preço Base",
+          "value": "$24.99"
+        }
+      ],
+      "cta": "Explore todos os guias"
+    },
+    "explore": {
+      "title": "Explorar Groundwork Simulator Wiki",
+      "description": "Guias práticos Groundwork Simulator para toda a cadeia de mineração: controles para iniciantes, prospecção de ouro, máquinas, funções cooperativas, sistemas de água, requisitos de PC e o roadmap do Acesso Antecipado.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Guia para iniciantes Groundwork Simulator",
+          "description": "Aprenda o ciclo de jogo essencial, desde a exploração do terreno e perfuração de depósitos de ouro até a escavação do solo, transporte de materiais e recuperação de ouro. Construa um primeiro canteiro de obras seguro com o tutorial e o maquinário básico.",
+          "href": "/guide/groundwork-simulator-beginner-guide",
+          "displayType": "passo a passo",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Termine o modo história e leia a lista de controle antes de aceitar um trabalho grande."
+            },
+            {
+              "label": "2",
+              "detail": "Abaixe a sensibilidade da câmera e do braço e, em seguida, cave um canteiro de teste plano em terreno aberto."
+            },
+            {
+              "label": "3",
+              "detail": "Explore o local e planeje a rota de corte, armazenamento e transporte antes de mover as máquinas."
+            },
+            {
+              "label": "4",
+              "detail": "Corte em camadas rasas e observe o feedback hidráulico em vez de forçar uma caçamba cheia."
+            },
+            {
+              "label": "5",
+              "detail": "Carregue o caminhão de maneira uniforme, levante a caçamba antes de girar e mantenha a frente de trabalho desobstruída."
+            },
+            {
+              "label": "6",
+              "detail": "Teste os depósitos antes de aumentar a escala e mantenha a usina de lavagem alimentada a uma taxa constante."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Guia de mineração de ouro Groundwork Simulator",
+          "description": "Localize depósitos promissores, teste o solo, escave material contendo ouro e processe-o através do sistema de lavagem. Conecte a superfície de escavação, a rota de transporte, as bombas, as mangueiras, as caixas de eclusas e a mesa vibratória em um fluxo de trabalho repetível.",
+          "href": "/guide/groundwork-simulator-gold-mining-guide",
+          "displayType": "passo a passo",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Teste possíveis áreas de escavação e confirme se há espaço para escavação, carregamento, transporte e processamento."
+            },
+            {
+              "label": "2",
+              "detail": "Limpe a sobrecarga e nivele uma plataforma de trabalho antes de comprometer a escavadeira."
+            },
+            {
+              "label": "3",
+              "detail": "Corte a terra de forma limpa e mantenha a face de escavação acessível sem reposicionamento constante."
+            },
+            {
+              "label": "4",
+              "detail": "Transporte o material testado ao longo de uma rota curta e clara e evite sobrecarregar um caminhão."
+            },
+            {
+              "label": "5",
+              "detail": "Alimente a usina de lavagem a uma taxa constante para que as caixas de eclusa possam separar a fração mais pesada."
+            },
+            {
+              "label": "6",
+              "detail": "Finalize o concentrado na mesa vibratória e mantenha o estágio de recuperação claro entre os lotes."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Guia de veículos Groundwork Simulator",
+          "description": "Compreenda as funções práticas de escavadeiras, tratores de esteira, carregadeiras de rodas e caminhões basculantes. Use esta classificação de prioridade no início do jogo para combinar cada máquina com escavação, trabalho de acesso, manuseio de estoque e transporte.",
+          "href": "/mechanics/groundwork-simulator-heavy-machinery",
+          "displayType": "grade de camadas",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Escavadeira — Corta terra batida, valas e carrega caminhões com controle hidráulico da caçamba."
+            },
+            {
+              "label": "A",
+              "detail": "Bulldozer – Remove a sobrecarga, abre o acesso e classifica áreas de trabalho estáveis."
+            },
+            {
+              "label": "B",
+              "detail": "Carregadeira de rodas — Constrói pilhas de proteção e mantém a tremonha da usina de lavagem alimentada."
+            },
+            {
+              "label": "C",
+              "detail": "Caminhão de transporte — Move material a granel e puxa o trailer entre os locais de trabalho."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Guia multijogador Groundwork Simulator",
+          "description": "Aborde operações individuais e cooperativas online dividindo a cadeia de mineração em funções claras. Coordene a escavação, o transporte, os testes, o abastecimento de água e a operação da estação de lavagem para que a equipe nunca duplique o trabalho.",
+          "href": "/modes/groundwork-simulator-multiplayer",
+          "displayType": "lista de cartas",
+          "highlights": [
+            {
+              "label": "Escavador",
+              "detail": "Opera a escavadeira, abre valas e carrega material sem interromper o fluxo de terra aurífera."
+            },
+            {
+              "label": "Transportador",
+              "detail": "Move o material testado entre a face de escavação e a usina de lavagem com um caminhão ou carregadeira de rodas."
+            },
+            {
+              "label": "Lavar",
+              "detail": "Opera as caixas de eclusa e a mesa vibratória a uma taxa de alimentação constante."
+            },
+            {
+              "label": "Água",
+              "detail": "Posiciona bombas e mangueiras para que a estação de lavagem nunca fique seca."
+            },
+            {
+              "label": "Teste",
+              "detail": "Amostras de solo são coletadas antes de a equipe levar as máquinas para terra estéril."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Controles Groundwork Simulator e dicas de escavação",
+          "description": "Aborde os fundamentos da operação de escavadeiras, incluindo ângulos de caçamba, feedback hidráulico, abordagens de escavação e gerenciamento de terreno. Aplique hábitos práticos para lama, declives e terrenos irregulares.",
+          "href": "/guide/groundwork-simulator-digging-guide",
+          "displayType": "lista de cartas",
+          "highlights": [
+            {
+              "label": "Lança",
+              "detail": "Eleve e abaixe a lança suavemente, mantendo a caçamba carregada próxima para levantamentos pesados."
+            },
+            {
+              "label": "Braço",
+              "detail": "Use o braço para alcançar e alavancar e, em seguida, retraia-o quando a caçamba parar."
+            },
+            {
+              "label": "Caçamba",
+              "detail": "Achate o balde para nivelar; incline-o com cuidado para morder sem sobrecarregar."
+            },
+            {
+              "label": "Giro",
+              "detail": "Levante antes de balançar e diminua a velocidade do arco com a caçamba cheia para evitar derramamento."
+            },
+            {
+              "label": "Esteiras",
+              "detail": "Fique de frente para cima ou apoie o solo antes de cavar em uma encosta lateral."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Guia do sistema de água Groundwork Simulator",
+          "description": "Forneça à operação de lavagem de ouro um layout confiável de bomba e mangueira. Execute um pequeno lote de teste, observe o fluxo da eclusa e corrija os problemas de água antes de iniciar a escavação contínua.",
+          "href": "/guide/groundwork-simulator-mining-setup",
+          "displayType": "passo a passo",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Coloque a estação de lavagem em terreno nivelado antes de direcionar a água ou construir estoques."
+            },
+            {
+              "label": "2",
+              "detail": "Posicione a bomba com uma entrada livre e uma mangueira curta e inspecionável."
+            },
+            {
+              "label": "3",
+              "detail": "Mantenha as mangueiras fora das pistas de transporte e verifique se há dobras ou longos percursos nas conexões."
+            },
+            {
+              "label": "4",
+              "detail": "Execute um pequeno lote de teste e observe como o material se move pelas caixas de eclusa."
+            },
+            {
+              "label": "5",
+              "detail": "Reduza a taxa de alimentação se o material recuar e restaure o fluxo de água antes de continuar."
+            },
+            {
+              "label": "6",
+              "detail": "Limpe a mesa vibratória entre lotes e mantenha cada etapa de recuperação separada."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Requisitos do sistema Groundwork Simulator",
+          "description": "Verifique as especificações mínimas e recomendadas oficiais de Windows e macOS para Groundwork Simulator. Planeje a carga de CPU e memória criada por simulação detalhada de solo e água.",
+          "href": "/platforms/groundwork-simulator-system-requirements",
+          "displayType": "cartões de código",
+          "highlights": [
+            {
+              "label": "Win mín.",
+              "detail": "Windows 10, Intel Core i5-8400 ou AMD Ryzen 5 2600, 16 GB de RAM, GTX 1070 8 GB, DirectX 12."
+            },
+            {
+              "label": "Win rec.",
+              "detail": "Windows 11, Intel Core i5-12400 ou AMD Ryzen 5 5600, 24 GB de RAM, RTX 3060 ou RX 6600 8 GB."
+            },
+            {
+              "label": "Mac mín.",
+              "detail": "macOS Tahoe ou mais recente, Apple M4, memória unificada de 16 GB e GPU integrada M4."
+            },
+            {
+              "label": "Mac rec.",
+              "detail": "macOS Tahoe ou mais recente, Apple M5 Pro, 24 GB de memória unificada e GPU integrada M5 Pro."
+            },
+            {
+              "label": "Armazenamento",
+              "detail": "10 GB de espaço disponível no Windows; planeje a mesma área ocupada no Mac."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Atualizações e roadmap do Groundwork Simulator",
+          "description": "Siga o plano oficial de Acesso Antecipado, anúncios de desenvolvimento e conteúdo planejado. Acompanhe a versão atual com um mapa, a lista de veículos em expansão e os canais de feedback usados ​​para atualizações futuras.",
+          "href": "/release/groundwork-simulator-roadmap",
+          "displayType": "lista de cartas",
+          "highlights": [
+            {
+              "label": "Roadmap",
+              "detail": "O Acesso Antecipado é estimado em cerca de três a seis meses, sujeito ao progresso do desenvolvimento."
+            },
+            {
+              "label": "Mapas",
+              "detail": "A versão de lançamento possui um mapa jogável; mais mapas estão planejados durante o Acesso Antecipado."
+            },
+            {
+              "label": "Veículos",
+              "detail": "A lista de máquinas será expandida com veículos adicionais durante o Acesso Antecipado."
+            },
+            {
+              "label": "Comentários",
+              "detail": "As discussões Steam e o Discord oficial são os canais nomeados para relatórios e sugestões."
+            },
+            {
+              "label": "Preços",
+              "detail": "O preço base é de US$ 24,99, sem alterações planejadas quando a versão completa for lançada."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Perguntas frequentes",
+      "description": "Respostas rápidas para as perguntas mais comuns sobre Groundwork Simulator.",
+      "items": [
+        {
+          "question": "O que é Groundwork Simulator?",
+          "answer": "Groundwork Simulator é um jogo de máquinas pesadas em mundo aberto sobre escavação, movimentação de terra, prospecção e recuperação de ouro. Os jogadores operam escavadeiras, tratores de esteira, carregadeiras, caminhões basculantes e reboques e depois lavam a terra aurífera em caixas de eclusa e em uma mesa vibratória."
+        },
+        {
+          "question": "O Groundwork Simulator é multijogador?",
+          "answer": "Sim. Groundwork Simulator inclui cooperação on-line, para que uma equipe possa dividir a escavação, o transporte, o abastecimento de água, os testes e a operação da usina de lavagem no mesmo canteiro de obras."
+        },
+        {
+          "question": "O que devo fazer primeiro em Groundwork Simulator?",
+          "answer": "Comece pelo modo história de Groundwork Simulator, reduza a sensibilidade da câmera e do braço e pratique um ciclo completo de corte, elevação, giro e descarga em terreno plano. Depois, teste os depósitos antes de montar uma estrutura completa de mineração."
+        },
+        {
+          "question": "Como funciona a recuperação de ouro em Groundwork Simulator?",
+          "answer": "A recuperação de ouro em Groundwork Simulator segue uma cadeia: testar o solo, retirar o estéril, extrair a terra aurífera, transportá-la para a usina de lavagem, passar o material pelas caixas de eclusa e finalizar o concentrado na mesa vibratória."
+        },
+        {
+          "question": "Quais plataformas podem executar Groundwork Simulator?",
+          "answer": "Groundwork Simulator está disponível em Acesso Antecipado na Steam para Windows e macOS. A versão para Windows exige DirectX 12, enquanto a versão para macOS exige um chip Apple Silicon com macOS Tahoe ou mais recente."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Pronto para dominar Groundwork Simulator?",
+      "description": "Da primeira escavação à mineração de ouro e às usinas de lavagem automatizadas, nosso wiki da comunidade oferece guias gratuitos e atualizados para cada etapa da sua operação.",
+      "primary": "Leia o guia para iniciantes",
+      "secondary": "Compre na Steam"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Guias Groundwork Simulator",
+    "overviewDescription": "Domine Groundwork Simulator com dicas para iniciantes, técnicas de escavação, planos de instalação de mineração, métodos para ganhar dinheiro e dicas de progressão em cada etapa."
+  },
+  "mechanics": {
+    "overviewTitle": "Mecânica Groundwork Simulator",
+    "overviewDescription": "Entenda escavação, física dos veículos, lavagem de ouro, máquinas pesadas, equipamentos de mineração e recuperação de concessões inundadas em Groundwork Simulator."
+  },
+  "modes": {
+    "overviewTitle": "Modos de jogo Groundwork Simulator",
+    "overviewDescription": "Explore o modo cooperativo multijogador Groundwork Simulator, o modo sandbox e operações de mundo aberto para jogadores solo e equipes de quatro pessoas."
+  },
+  "platforms": {
+    "overviewTitle": "Plataformas Groundwork Simulator",
+    "overviewDescription": "Verifique a disponibilidade de Groundwork Simulator na Steam, PC, PS5, Xbox e consoles, além dos requisitos do sistema e detalhes das plataformas."
+  },
+  "release": {
+    "overviewTitle": "Lançamento e atualizações do Groundwork Simulator",
+    "overviewDescription": "Acompanhe as notícias de lançamento de Groundwork Simulator, os planos de Acesso Antecipado na Steam, as etapas do roadmap e as atualizações mais recentes."
+  },
+  "community": {
+    "overviewTitle": "Comunidade Groundwork Simulator",
+    "overviewDescription": "Conecte-se com jogadores de Groundwork Simulator pelo Reddit, Discord e comunidade da Steam para compartilhar builds, descobertas e soluções de problemas."
+  },
+  "media": {
+    "overviewTitle": "Mídia Groundwork Simulator",
+    "overviewDescription": "Assista aos trailers e gameplays de Groundwork Simulator, leia análises e acompanhe os devlogs sobre novas máquinas e recursos."
+  },
+  "shared": {
+    "wikiNavigation": "Navegação do wiki",
+    "updated": "Atualizado",
+    "playOnRoblox": "Jogue na Steam",
+    "inThisSection": "Nesta seção",
+    "tableOfContents": "Índice",
+    "nextSteps": "Próximas etapas",
+    "needHelp": "Precisa de ajuda?",
+    "relatedReading": "Leitura Relacionada",
+    "relatedGuides": "Guias Relacionados",
+    "readMore": "Leia mais",
+    "officialMedia": "Mídia oficial",
+    "home": "Página inicial",
+    "noGuidesAvailable": "Nenhum guia disponível ainda. Volte em breve!"
+  },
+  "footer": {
+    "aboutTitle": "Groundwork Simulator Wiki",
+    "about": "Groundwork Simulator Wiki é uma central de guias independente criada por fãs, com conteúdo sobre escavação, máquinas pesadas, mineração de ouro, modelagem de terreno, instalações de lavagem, transporte e jogabilidade cooperativa para quatro jogadores.",
+    "quickLinks": "Links rápidos",
+    "guides": "Guias",
+    "legal": "Jurídico",
+    "copyright": "2026 Groundwork Simulator Wiki. Não afiliado ao desenvolvedor ou editor de Groundwork Simulator.",
+    "description": "Simulador de máquinas pesadas em mundo aberto para PC e Steam. Escave, transporte, minere ouro e construa usinas de lavagem com até quatro jogadores.",
+    "playGame": "Jogue na Steam",
+    "officialDiscord": "Discord oficial",
+    "officialYoutube": "YouTube oficial",
+    "officialInstagram": "Instagram oficial",
+    "officialWebsite": "Site oficial",
+    "vvBuilder": "Recursos comunitários",
+    "beginnerGuide": "Central de guias",
+    "raceGuides": "Mecânicas das máquinas",
+    "bossGuides": "Lançamento e atualizações",
+    "buildGuide": "Plataformas e Requisitos",
+    "privacyPolicy": "Política de Privacidade",
+    "termsOfService": "Termos de Serviço"
+  }
+}

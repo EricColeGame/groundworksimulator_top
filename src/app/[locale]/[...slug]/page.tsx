@@ -91,7 +91,8 @@ async function DetailPage({ locale, contentType, slug, navGroups }: { locale: Lo
   if (!item) notFound();
   const pathname = `/${contentType}/${slug.join("/")}`;
   const tocLabel = messages.shared.tableOfContents || messages.shared.inThisSection || "Table of Contents";
-  const sectionLabel = contentType.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+  const sectionLabel = (messages.nav as unknown as Record<string, string>)[contentType]
+    ?? contentType.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
   const articleUrl = `${siteUrl}/${locale}${pathname}`;
   const articleData = {
     "@context": "https://schema.org",
@@ -114,7 +115,7 @@ async function DetailPage({ locale, contentType, slug, navGroups }: { locale: Lo
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: `${siteUrl}/${locale}` },
+      { "@type": "ListItem", position: 1, name: messages.shared.home, item: `${siteUrl}/${locale}` },
       { "@type": "ListItem", position: 2, name: sectionLabel, item: `${siteUrl}/${locale}/${contentType}` },
       { "@type": "ListItem", position: 3, name: item.metadata.title, item: articleUrl },
     ],

@@ -41,7 +41,7 @@ export default function HomePageClient({ home, locale, articles, recentArticles 
 
       {/* Official trailer — immediately after the hero and sized for desktop viewing */}
       {YOUTUBE_VIDEO_ID && (
-        <section aria-label="Official trailer" className="mx-auto w-full max-w-5xl">
+        <section aria-label={home.hero.videoLabel} className="mx-auto w-full max-w-5xl">
           <TrailerButton videoId={YOUTUBE_VIDEO_ID} />
         </section>
       )}

@@ -37,6 +37,6 @@ export const siteConfig: SiteConfig = {
     youtube: "https://www.youtube.com/@groundworksimulator",
     instagram: "https://www.instagram.com/groundworksimulator/",
   },
-  locales: ["en", "es", "pt", "de", "fr"],
+  locales: ["en", "de", "fr", "pt-BR"],
   defaultLocale: "en",
 };
