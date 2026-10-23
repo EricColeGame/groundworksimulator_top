@@ -1,4 +1,4 @@
-import { siteConfig } from "@/config/site";
+import { SCHEMA_ORG_URL, siteConfig } from "@/config/site";
 import type { Metadata } from "next";
 import { getMessages } from "next-intl/server";
 import { JsonLd, WikiSidebar } from "@/components/site";
@@ -7,7 +7,7 @@ import { routing, type Locale } from "@/i18n/routing";
 import en from "@/locales/en.json";
 import HomePageClient from "./HomePageClient";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://groundworksimulator.top";
+const siteUrl = siteConfig.url;
 
 type Messages = typeof en;
 
@@ -27,7 +27,16 @@ export default async function LocaleHomePage({ params }: { params: Promise<{ loc
   const loc = locale as Locale;
   const messages = (await getMessages({ locale })) as Messages;
   const navGroups = getDynamicNavigation(loc);
-  const webSite = { "@context": "https://schema.org", "@type": "WebSite", name: siteConfig.name, url: siteUrl, description: messages.home.meta.description };
+  const webSite = {
+    "@context": SCHEMA_ORG_URL,
+    "@type": "WebSite",
+    name: siteConfig.name,
+    alternateName: siteConfig.shortName,
+    url: `${siteUrl}/${locale}`,
+    description: messages.home.meta.description,
+    inLanguage: locale,
+    publisher: { "@type": "Organization", name: siteConfig.name, url: siteUrl },
+  };
 
   // 动态加载所有 content 目录下的文章
   const allArticles: ContentItem[] = [];

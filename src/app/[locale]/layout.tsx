@@ -37,8 +37,22 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     },
     title: { default: "Groundwork Simulator Wiki", template: "%s" },
     description: "Groundwork Simulator guides covering excavation, heavy machinery, gold mining, wash plants, multiplayer, and progression.",
-    openGraph: { type: "website", locale, url: siteUrl, siteName: siteConfig.name, images: [{ url: image }] },
-    twitter: { card: "summary_large_image", images: [image] },
+    keywords: ["Groundwork Simulator", "PC", "Steam", "excavation guide", "heavy machinery", "gold mining", "wash plant", "multiplayer"],
+    openGraph: {
+      type: "website",
+      locale,
+      url: siteUrl,
+      siteName: siteConfig.name,
+      title: "Groundwork Simulator Wiki",
+      description: siteConfig.description,
+      images: [{ url: image, width: 1920, height: 1080, alt: "Groundwork Simulator excavation and heavy machinery" }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "Groundwork Simulator Wiki",
+      description: siteConfig.description,
+      images: [image],
+    },
     ...(adsenseId ? { other: { "google-adsense-account": adsenseId } } : {}),
   };
 }
@@ -51,10 +65,12 @@ export default async function LocaleLayout({ children, params }: { children: Rea
   const organization = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: siteConfig.name,
-    url: siteUrl,
-    logo: `${siteUrl}/android-chrome-512x512.png`,
-    image: `${siteUrl}/images/hero.webp`,
+    "name": siteConfig.name,
+    "url": siteUrl,
+    "description": siteConfig.description,
+    "logo": `${siteUrl}/android-chrome-512x512.png`,
+    "image": `${siteUrl}/images/hero.webp`,
+    "sameAs": [siteConfig.websiteUrl, siteConfig.social?.youtube, siteConfig.social?.instagram].filter(Boolean),
   };
 
   const adsenseId = process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID;

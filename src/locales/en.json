@@ -1,10 +1,10 @@
 {
   "site": {
-    "name": "My Seafood Stand Wiki",
-    "shortName": "My Seafood Stand",
-    "tagline": "Complete Guides, Codes, Recipes & Tier Lists",
-    "description": "Your ultimate guide to My Seafood Stand on Roblox! Explore active codes, seafood recipes, best upgrades, profit strategies, and progression guides.",
-    "legalNotice": "Non-official fan wiki. Made by players, for players."
+    "name": "Groundwork Simulator Wiki",
+    "shortName": "Groundwork Simulator",
+    "tagline": "Excavation, Heavy Machinery & Gold Mining Guides",
+    "description": "Explore Groundwork Simulator guides for excavation, heavy machinery, gold mining, terrain shaping, wash plant setups, transportation, and cooperative gameplay.",
+    "legalNotice": "Non-official fan wiki. Not affiliated with the Groundwork Simulator developer or publisher."
   },
   "nav": {
     "races": "Races",
@@ -26,22 +26,22 @@
   },
   "home": {
     "meta": {
-      "title": "My Seafood Stand Wiki — Codes, Recipes, Upgrades & Guides",
-      "description": "Complete My Seafood Stand guide on Roblox with active working codes, all fish & recipes, best upgrades tier list, and fast cash tips."
+      "title": "Groundwork Simulator Wiki - Guides, Vehicles & Mining",
+      "description": "Explore Groundwork Simulator guides covering excavation, heavy machinery, gold mining, vehicles, wash plant setups, terrain shaping, transportation, and co-op gameplay."
     },
     "hero": {
-      "eyebrow": "Fan-Made Community Wiki",
-      "title": "My Seafood Stand",
-      "description": "Master your restaurant in My Seafood Stand on Roblox. Access all active codes, complete fish & recipe catalog, optimal upgrades, and pro money-making strategies.",
+      "eyebrow": "Open-World Heavy Machinery Simulator",
+      "title": "Groundwork Simulator Wiki",
+      "description": "Master excavation, heavy machinery, gold mining, terrain shaping, wash plant setups, and four-player co-op with practical Groundwork Simulator guides.",
       "stats": [
-        "All Codes",
-        "All Fish & Recipes",
-        "Upgrade Guides",
-        "Fast Cash Tips"
+        "Release Date: Oct 22, 2026",
+        "4-Player Co-op",
+        "1 Playable Map",
+        "3–6 Months Early Access"
       ],
       "primaryCta": "Beginner Guide",
-      "secondaryCta": "Seafood Tier List",
-      "tertiaryCta": "Active Codes",
+      "secondaryCta": "Play on Steam",
+      "tertiaryCta": "Official Website",
       "videoLabel": "Official media"
     },
     "updates": {
@@ -51,27 +51,27 @@
     },
     "start": {
       "eyebrow": "Start Here",
-      "title": "Your My Seafood Stand Journey",
+      "title": "Your Groundwork Simulator Journey",
       "cards": [
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn the controls, complete your first excavation job, and build a reliable early-game workflow."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Machinery & Attachments",
+          "description": "Compare excavators, loaders, haul trucks, and attachments for every digging and transport task."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Gold Mining",
+          "description": "Find gold-bearing ground, move ore efficiently, and turn raw material into steady income."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in My Seafood Stand."
+          "title": "Wash Plant Setup",
+          "description": "Plan water access, conveyor routes, and processing capacity for a productive wash plant."
         }
       ]
     },
@@ -79,237 +79,237 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Excavation Basics",
+        "Best Excavator",
+        "Gold Mining Route",
+        "Wash Plant Guide"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "Controls, first contracts, and the fastest route from a bare site to a productive operation.",
+          "href": "/guide"
         },
         {
           "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
+          "title": "Gold Mining Guide",
+          "description": "Where to prospect, how to read deposits, and the equipment needed for efficient ore processing.",
+          "href": "/skills"
         },
         {
           "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "title": "Machinery Database",
+          "description": "Excavators, loaders, and haul trucks compared by digging power, capacity, and handling.",
+          "href": "/maps"
         },
         {
           "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
+          "title": "Which Excavator Should You Pick?",
+          "description": "Match machine size and attachments to the job instead of overspending on the wrong equipment.",
+          "href": "/maps"
         },
         {
           "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
+          "title": "Haulage & Logistics",
+          "description": "Build stable haul routes and keep trucks, loaders, and processing stations working together.",
+          "href": "/guide"
         },
         {
           "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
+          "title": "Gold Mining Locations",
+          "description": "A practical overview of prospecting areas, deposit types, and transport planning.",
+          "href": "/maps"
         },
         {
           "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
+          "title": "Best Wash Plant Layouts",
+          "description": "Layouts that improve throughput, reduce bottlenecks, and make future expansion easier.",
+          "href": "/skills"
         },
         {
           "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
+          "title": "Terrain Shaping Tips",
+          "description": "Grade slopes, open access roads, and prepare stable ground before bringing in heavy equipment.",
+          "href": "/guide"
         },
         {
           "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "title": "4-Player Co-op Guide",
+          "description": "Split excavation, hauling, and processing duties so a four-person crew stays productive.",
+          "href": "/guide"
         }
       ]
     },
     "aboutGame": {
-      "title": "What is My Seafood Stand?",
+      "title": "What is Groundwork Simulator?",
       "paragraphs": [
-        "My Seafood Stand is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Groundwork Simulator is an open-world heavy machinery game focused on excavation, earthmoving, transportation, gold mining, terrain shaping, and wash plant construction. It supports cooperative play for up to four players.",
+        "Our wiki explains the workflow from site preparation to processing: choose the right machine, plan haul routes, find gold-bearing ground, and build a wash plant that can keep pace with your crew."
       ],
       "stats": [
         {
           "label": "Developer",
-          "value": "Midnight Continent"
+          "value": "To be confirmed"
         },
         {
           "label": "Platform",
-          "value": "Roblox"
+          "value": "PC / Steam"
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Heavy Machinery Simulation"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Release Date",
+          "value": "Oct 22, 2026"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Co-op Players",
+          "value": "4"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
+          "label": "Playable Maps",
+          "value": "1"
         },
         {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Planned Early Access",
+          "value": "3–6 Months"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
-      "title": "Explore My Seafood Stand Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "title": "Explore Groundwork Simulator Wiki",
+      "description": "Practical guides for excavation, heavy machinery, gold mining, terrain shaping, haulage, and wash plant automation.",
       "modules": [
         {
           "order": 1,
-          "name": "My Seafood Stand Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/my-seafood-stand-codes",
-          "displayType": "code-box",
+          "name": "Excavation Basics",
+          "description": "Learn how to read the ground, position your machine, and complete clean digs without wasting cycles.",
+          "href": "/guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Survey the site and mark the cut, fill, and haul route"
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Position the bucket for a full pass and stable digging angle"
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Load the truck evenly and keep the working face clear"
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/my-seafood-stand-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Heavy Machinery & Attachments",
+          "description": "Understand what each machine and attachment is designed to do before committing your earnings.",
+          "href": "/maps",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "EX",
+              "detail": "Excavators: digging, trenching, and precise material handling"
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "LD",
+              "detail": "Loaders: fast stockpile work and truck loading"
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "HT",
+              "detail": "Haul trucks: moving bulk material over longer routes"
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/my-seafood-stand-tier-list",
+          "name": "Machinery Tier List",
+          "description": "A practical ranking of machine roles for early, mid, and late-game site work.",
+          "href": "/maps",
           "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "S",
+              "detail": "Excavators — Core digging and trenching platform"
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "A",
+              "detail": "Loaders — Fast stockpile and truck-loading work"
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "B",
+              "detail": "Haul trucks — Essential bulk transport on long routes"
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "C",
+              "detail": "Support equipment — Useful after core production is stable"
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/my-seafood-stand-best-upgrades",
+          "name": "Gold Mining Workflow",
+          "description": "Prospect for gold-bearing material, extract it efficiently, and prepare ore for processing.",
+          "href": "/skills",
           "displayType": "feature-cards",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "Prospect",
+              "detail": "Test likely ground before moving a full excavation crew"
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "Extract",
+              "detail": "Separate ore-bearing material from waste to reduce haul volume"
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "Process",
+              "detail": "Feed a wash plant at a steady rate instead of creating stockpile bottlenecks"
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/my-seafood-stand-how-to-get-cash-fast",
+          "name": "Wash Plant Setup",
+          "description": "Build a wash plant around reliable water access, sensible conveyor routes, and room to expand.",
+          "href": "/skills",
           "displayType": "feature-cards",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "Water",
+              "detail": "Secure a stable supply before adding more processing capacity"
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Flow",
+              "detail": "Keep feed, screening, and output paths short and unobstructed"
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Scale",
+              "detail": "Leave space for additional conveyors and stockpiles as production grows"
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/my-seafood-stand-how-to-upgrade-plot",
+          "name": "Haulage & Terrain Prep",
+          "description": "Keep excavators, loaders, and trucks working as one system while preparing stable site access.",
+          "href": "/guide",
           "displayType": "feature-cards",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Routes",
+              "detail": "Use wide, graded roads with predictable turn and dump zones"
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Balance",
+              "detail": "Match truck capacity to excavator output and processing speed"
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Drainage",
+              "detail": "Plan runoff so work areas stay usable after heavy rain"
             }
           ]
         }
@@ -317,45 +317,45 @@
     },
     "faq": {
       "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about My Seafood Stand.",
+      "description": "Quick answers to the most common questions about Groundwork Simulator.",
       "items": [
         {
-          "question": "What is My Seafood Stand?",
-          "answer": "My Seafood Stand is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "question": "What is Groundwork Simulator?",
+          "answer": "Groundwork Simulator is an open-world heavy machinery game about excavation, earthmoving, gold mining, terrain shaping, transportation, and building wash plants. It supports cooperative play for up to four players."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "Is Groundwork Simulator multiplayer?",
+          "answer": "Yes. The game is designed for cooperative play with up to four players, so crews can divide excavation, hauling, and processing tasks."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "What platform is Groundwork Simulator on?",
+          "answer": "The official store listing is for PC on Steam. Check the Steam page for current system requirements and availability."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "How do I mine gold?",
+          "answer": "Prospect for gold-bearing ground, extract the ore-bearing material, haul it to a processing area, and feed it through a wash plant at a steady rate."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "Does Groundwork Simulator have codes?",
+          "answer": "No verified active codes are currently available. Check the Codes page for future updates and only use codes confirmed by official channels."
         }
       ]
     },
     "finalCta": {
-      "title": "Ready to Master My Seafood Stand?",
-      "description": "From your first steps in Fort Adams to endgame boss fights our community wiki has you covered with free, up-to-date guides.",
+      "title": "Ready to Master Groundwork Simulator?",
+      "description": "From your first excavation to gold mining and automated wash plants, our community wiki has free, up-to-date guides for every stage of your build.",
       "primary": "Read the Beginner Guide",
-      "secondary": "Play on Roblox"
+      "secondary": "Buy on Steam"
     }
   },
   "bosses": {
     "meta": {
-      "title": "Bosses — Complete Guide & Walkthrough | My Seafood Stand Wiki",
-      "description": "Complete boss guides for My Seafood Stand — all bosses from tutorial Gelum to endgame encounters with strategies, drops, and respawn timers."
+      "title": "Bosses — Complete Guide & Walkthrough | Groundwork Simulator Wiki",
+      "description": "Complete boss guides for Groundwork Simulator — all bosses from tutorial Gelum to endgame encounters with strategies, drops, and respawn timers."
     },
     "overviewTitle": "Bosses Overview",
-    "overviewDescription": "Complete guides for every boss encounter in My Seafood Stand 13 bosses from the tutorial knight Gelum to endgame encounters like the Gelid Dweller and Gauntlet challenges.",
-    "body": "Bosses in My Seafood Stand serve as skill gates and progression milestones. Some, like Gelum, teach you the combat fundamentals during the tutorial. Others, such as the Shikai Spirit and Resurreccion Spirit, are inner-world encounters tied directly to your race's power unlock. Area bosses like Dragonfly, King Croc, and Securis guard access to new zones and rewards. Recent additions include the Rogue Commander with his Minions, the ice-themed The Everfrosted, and four brand new endgame bosses: The Gelid Dweller, Cinder of the Broken Sky, Devourer of Hosts, and the Wandering Swordsman (Junichiro). Each boss has distinct attack patterns and telegraphed moves you need to learn. Use the guides below to prepare for every fight.",
+    "overviewDescription": "Complete guides for every boss encounter in Groundwork Simulator 13 bosses from the tutorial knight Gelum to endgame encounters like the Gelid Dweller and Gauntlet challenges.",
+    "body": "Bosses in Groundwork Simulator serve as skill gates and progression milestones. Some, like Gelum, teach you the combat fundamentals during the tutorial. Others, such as the Shikai Spirit and Resurreccion Spirit, are inner-world encounters tied directly to your race's power unlock. Area bosses like Dragonfly, King Croc, and Securis guard access to new zones and rewards. Recent additions include the Rogue Commander with his Minions, the ice-themed The Everfrosted, and four brand new endgame bosses: The Gelid Dweller, Cinder of the Broken Sky, Devourer of Hosts, and the Wandering Swordsman (Junichiro). Each boss has distinct attack patterns and telegraphed moves you need to learn. Use the guides below to prepare for every fight.",
     "guidesTitle": "Bosses Guides",
     "readMore": "Read more",
     "new": "New",
@@ -366,7 +366,7 @@
     "activeCodes": "Active Codes",
     "updated": "Updated",
     "viewAllCodes": "View all codes",
-    "playOnRoblox": "Play on Roblox",
+    "playOnRoblox": "Play on Steam",
     "inThisSection": "In this section",
     "tableOfContents": "Table of Contents",
     "nextSteps": "Next Steps",
@@ -379,21 +379,23 @@
     "noGuidesAvailable": "No guides available yet. Check back soon!"
   },
   "footer": {
-    "aboutTitle": "My Seafood Stand Wiki",
-    "about": "My Seafood Stand Wiki is an independent fan-built guide hub covering progression routes, races, bosses, builds, and essential game knowledge for new and veteran players alike.",
+    "aboutTitle": "Groundwork Simulator Wiki",
+    "about": "Groundwork Simulator Wiki is an independent fan-built guide hub covering excavation, heavy machinery, gold mining, terrain shaping, wash plant setups, transportation, and four-player cooperative gameplay.",
     "quickLinks": "Quick Links",
     "guides": "Guides",
     "legal": "Legal",
-    "copyright": "2026 My Seafood Stand Wiki. Not affiliated with Midnight Continent or Roblox.",
-    "description": "Free Bleach-inspired fighting RPG on Roblox. 3 races, 130+ skills, Lv100 cap.",
-    "playGame": "Play My Seafood Stand",
+    "copyright": "2026 Groundwork Simulator Wiki. Not affiliated with the Groundwork Simulator developer or publisher.",
+    "description": "Open-world heavy machinery simulator on PC and Steam. Excavate, haul, mine gold, and build wash plants with up to four players.",
+    "playGame": "Play on Steam",
     "officialDiscord": "Official Discord",
     "officialYoutube": "Official YouTube",
-    "vvBuilder": "VV Builder (Skill Planner)",
-    "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
+    "officialInstagram": "Official Instagram",
+    "officialWebsite": "Official Website",
+    "vvBuilder": "Community Resources",
+    "beginnerGuide": "Excavation Guides",
+    "raceGuides": "Machinery Guides",
+    "bossGuides": "Gold Mining Guides",
+    "buildGuide": "Wash Plant Guides",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
   }
