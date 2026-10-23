@@ -39,22 +39,22 @@
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Learn the controls, complete your first excavation job, and build a reliable early-game workflow."
+          "description": "Play the guided story tutorial, learn hydraulic bucket control, and prepare a safe first dig before committing equipment."
         },
         {
           "number": "2",
-          "title": "Machinery & Attachments",
-          "description": "Compare excavators, loaders, haul trucks, and attachments for every digging and transport task."
+          "title": "Progression Guide",
+          "description": "Build cash and reputation in the right order, upgrade the machine you own, and avoid oversized early purchases."
         },
         {
           "number": "3",
-          "title": "Gold Mining",
-          "description": "Find gold-bearing ground, move ore efficiently, and turn raw material into steady income."
+          "title": "Gold Mining Guide",
+          "description": "Test deposits in a grid, strip overburden, cut paydirt, and keep tested material moving to the wash plant."
         },
         {
           "number": "4",
-          "title": "Wash Plant Setup",
-          "description": "Plan water access, conveyor routes, and processing capacity for a productive wash plant."
+          "title": "Co-op Roles",
+          "description": "Assign digging, hauling, water, and wash-plant duties before the first bucket to keep a shared site productive."
         }
       ]
     },
@@ -72,72 +72,68 @@
           "badge": "Beginner",
           "title": "Beginner Guide",
           "description": "Controls, first contracts, and the fastest route from a bare site to a productive operation.",
-          "href": "/guide"
+          "href": "/guide/groundwork-simulator-beginner-guide"
         },
         {
           "badge": "Updated",
           "title": "Gold Mining Guide",
           "description": "Where to prospect, how to read deposits, and the equipment needed for efficient ore processing.",
-          "href": "/skills"
+          "href": "/guide/groundwork-simulator-gold-mining-guide"
         },
         {
           "badge": "Updated",
           "title": "Machinery Database",
           "description": "Excavators, loaders, and haul trucks compared by digging power, capacity, and handling.",
-          "href": "/maps"
+          "href": "/mechanics/groundwork-simulator-heavy-machinery"
         },
         {
           "badge": "Popular",
           "title": "Which Excavator Should You Pick?",
           "description": "Match machine size and attachments to the job instead of overspending on the wrong equipment.",
-          "href": "/maps"
+          "href": "/mechanics/groundwork-simulator-mining-equipment"
         },
         {
           "badge": "New",
           "title": "Haulage & Logistics",
           "description": "Build stable haul routes and keep trucks, loaders, and processing stations working together.",
-          "href": "/guide"
+          "href": "/guide/groundwork-simulator-how-to-make-money"
         },
         {
           "badge": "Popular",
           "title": "Gold Mining Locations",
           "description": "A practical overview of prospecting areas, deposit types, and transport planning.",
-          "href": "/maps"
+          "href": "/mechanics/groundwork-simulator-gold-washing"
         },
         {
           "badge": "Popular",
           "title": "Best Wash Plant Layouts",
           "description": "Layouts that improve throughput, reduce bottlenecks, and make future expansion easier.",
-          "href": "/skills"
+          "href": "/guide/groundwork-simulator-mining-setup"
         },
         {
           "badge": "New",
           "title": "Terrain Shaping Tips",
           "description": "Grade slopes, open access roads, and prepare stable ground before bringing in heavy equipment.",
-          "href": "/guide"
+          "href": "/guide/groundwork-simulator-digging-guide"
         },
         {
           "badge": "New",
           "title": "4-Player Co-op Guide",
           "description": "Split excavation, hauling, and processing duties so a four-person crew stays productive.",
-          "href": "/guide"
+          "href": "/modes/groundwork-simulator-multiplayer"
         }
       ]
     },
     "aboutGame": {
       "title": "What is Groundwork Simulator?",
       "paragraphs": [
-        "Groundwork Simulator is an open-world heavy machinery game focused on excavation, earthmoving, transportation, gold mining, terrain shaping, and wash plant construction. It supports cooperative play for up to four players.",
-        "Our wiki explains the workflow from site preparation to processing: choose the right machine, plan haul routes, find gold-bearing ground, and build a wash plant that can keep pace with your crew."
+        "Groundwork Simulator is an open-world heavy machinery game built around excavation, earthmoving, gold prospecting, and gold recovery. You operate excavators, wheel loaders, bulldozers, haul trucks, and trailers across a persistent worksite where every bucket changes the terrain.",
+        "The core loop runs from testing a deposit to stripping overburden, cutting paydirt, hauling material, and washing it through sluice boxes and a shaking table. Pumps and hoses keep the plant supplied, while story mode teaches the controls and online co-op lets players split the work."
       ],
       "stats": [
         {
-          "label": "Developer",
-          "value": "To be confirmed"
-        },
-        {
           "label": "Platform",
-          "value": "PC / Steam"
+          "value": "Windows / macOS (Steam)"
         },
         {
           "label": "Genre",
@@ -148,8 +144,8 @@
           "value": "Oct 22, 2026"
         },
         {
-          "label": "Co-op Players",
-          "value": "4"
+          "label": "Online Co-op",
+          "value": "Yes"
         },
         {
           "label": "Playable Maps",
@@ -158,141 +154,255 @@
         {
           "label": "Planned Early Access",
           "value": "3–6 Months"
+        },
+        {
+          "label": "Base Price",
+          "value": "$24.99"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
       "title": "Explore Groundwork Simulator Wiki",
-      "description": "Practical guides for excavation, heavy machinery, gold mining, terrain shaping, haulage, and wash plant automation.",
+      "description": "Practical Groundwork Simulator guides for the full mining chain: beginner controls, gold prospecting, machinery, co-op roles, water systems, PC requirements, and the Early Access roadmap.",
       "modules": [
         {
           "order": 1,
-          "name": "Excavation Basics",
-          "description": "Learn how to read the ground, position your machine, and complete clean digs without wasting cycles.",
-          "href": "/guide",
+          "name": "Groundwork Simulator Beginner Guide",
+          "description": "Learn the essential gameplay loop, from exploring terrain and drilling for gold deposits to excavating soil, transporting materials, and recovering gold. Build a safe first worksite with the tutorial and basic machinery.",
+          "href": "/guide/groundwork-simulator-beginner-guide",
           "displayType": "step-by-step",
           "highlights": [
             {
               "label": "1",
-              "detail": "Survey the site and mark the cut, fill, and haul route"
+              "detail": "Finish story mode and read the control list before accepting a large job."
             },
             {
               "label": "2",
-              "detail": "Position the bucket for a full pass and stable digging angle"
+              "detail": "Lower camera and arm sensitivity, then dig a flat test patch in open ground."
             },
             {
               "label": "3",
-              "detail": "Load the truck evenly and keep the working face clear"
+              "detail": "Scout the site and plan the cut, stockpile, and haul route before moving machines."
+            },
+            {
+              "label": "4",
+              "detail": "Cut in shallow layers and watch hydraulic feedback instead of forcing a full bucket."
+            },
+            {
+              "label": "5",
+              "detail": "Load the truck evenly, lift before swinging, and keep the working face clear."
+            },
+            {
+              "label": "6",
+              "detail": "Test deposits before scaling up and keep the wash plant fed at a steady rate."
             }
           ]
         },
         {
           "order": 2,
-          "name": "Heavy Machinery & Attachments",
-          "description": "Understand what each machine and attachment is designed to do before committing your earnings.",
-          "href": "/maps",
-          "displayType": "card-list",
+          "name": "Groundwork Simulator Gold Mining Guide",
+          "description": "Locate promising deposits, test the ground, excavate gold-bearing material, and process it through the washing system. Connect the digging face, haul route, pumps, hoses, sluice boxes, and shaking table into one repeatable workflow.",
+          "href": "/guide/groundwork-simulator-gold-mining-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "EX",
-              "detail": "Excavators: digging, trenching, and precise material handling"
+              "label": "1",
+              "detail": "Test possible dig areas and confirm there is room for digging, loading, hauling, and processing."
             },
             {
-              "label": "LD",
-              "detail": "Loaders: fast stockpile work and truck loading"
+              "label": "2",
+              "detail": "Clear overburden and level a work platform before committing the excavator."
             },
             {
-              "label": "HT",
-              "detail": "Haul trucks: moving bulk material over longer routes"
+              "label": "3",
+              "detail": "Cut the paydirt cleanly and keep the digging face reachable without constant repositioning."
+            },
+            {
+              "label": "4",
+              "detail": "Haul tested material along a short, clear route and avoid overloading one truck."
+            },
+            {
+              "label": "5",
+              "detail": "Feed the wash plant at a steady rate so the sluice boxes can separate the heavier fraction."
+            },
+            {
+              "label": "6",
+              "detail": "Finish the concentrate on the shaking table and keep the recovery stage clear between batches."
             }
           ]
         },
         {
           "order": 3,
-          "name": "Machinery Tier List",
-          "description": "A practical ranking of machine roles for early, mid, and late-game site work.",
-          "href": "/maps",
+          "name": "Groundwork Simulator Vehicles Guide",
+          "description": "Understand the practical roles of excavators, bulldozers, wheel loaders, and haul trucks. Use this early-game priority ranking to match each machine to digging, access work, stockpile handling, and transport.",
+          "href": "/mechanics/groundwork-simulator-heavy-machinery",
           "displayType": "tier-grid",
           "highlights": [
             {
               "label": "S",
-              "detail": "Excavators — Core digging and trenching platform"
+              "detail": "Excavator — Cuts paydirt, trenches, and loads haulers with hydraulic bucket control."
             },
             {
               "label": "A",
-              "detail": "Loaders — Fast stockpile and truck-loading work"
+              "detail": "Bulldozer — Strips overburden, opens access, and grades stable work pads."
             },
             {
               "label": "B",
-              "detail": "Haul trucks — Essential bulk transport on long routes"
+              "detail": "Wheel loader — Builds buffer piles and keeps the wash plant hopper fed."
             },
             {
               "label": "C",
-              "detail": "Support equipment — Useful after core production is stable"
+              "detail": "Haul truck — Moves bulk material and pulls the trailer between worksites."
             }
           ]
         },
         {
           "order": 4,
-          "name": "Gold Mining Workflow",
-          "description": "Prospect for gold-bearing material, extract it efficiently, and prepare ore for processing.",
-          "href": "/skills",
-          "displayType": "feature-cards",
+          "name": "Groundwork Simulator Multiplayer Guide",
+          "description": "Approach solo operations and online co-op by splitting the mining chain into clear roles. Coordinate excavation, haulage, testing, water supply, and wash-plant operation so the crew never duplicates work.",
+          "href": "/modes/groundwork-simulator-multiplayer",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Prospect",
-              "detail": "Test likely ground before moving a full excavation crew"
+              "label": "Digger",
+              "detail": "Runs the excavator, cuts trenches, and loads material without pausing the paydirt flow."
             },
             {
-              "label": "Extract",
-              "detail": "Separate ore-bearing material from waste to reduce haul volume"
+              "label": "Hauler",
+              "detail": "Moves tested material between the dig face and wash plant with a truck or wheel loader."
             },
             {
-              "label": "Process",
-              "detail": "Feed a wash plant at a steady rate instead of creating stockpile bottlenecks"
+              "label": "Wash",
+              "detail": "Operates the sluice boxes and shaking table at a steady feed rate."
+            },
+            {
+              "label": "Water",
+              "detail": "Positions pumps and hoses so the wash plant never runs dry."
+            },
+            {
+              "label": "Testing",
+              "detail": "Samples ground before the crew commits machines to barren dirt."
             }
           ]
         },
         {
           "order": 5,
-          "name": "Wash Plant Setup",
-          "description": "Build a wash plant around reliable water access, sensible conveyor routes, and room to expand.",
-          "href": "/skills",
-          "displayType": "feature-cards",
+          "name": "Groundwork Simulator Controls and Excavation Tips",
+          "description": "Cover the fundamentals of excavator operation, including bucket angles, hydraulic feedback, digging approaches, and terrain management. Apply practical habits for mud, slopes, and uneven ground.",
+          "href": "/guide/groundwork-simulator-digging-guide",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Water",
-              "detail": "Secure a stable supply before adding more processing capacity"
+              "label": "Boom",
+              "detail": "Raise and lower the boom smoothly, keeping the loaded bucket close for heavy lifts."
             },
             {
-              "label": "Flow",
-              "detail": "Keep feed, screening, and output paths short and unobstructed"
+              "label": "Arm",
+              "detail": "Use the arm for reach and leverage, then retract it when the bucket stalls."
             },
             {
-              "label": "Scale",
-              "detail": "Leave space for additional conveyors and stockpiles as production grows"
+              "label": "Bucket",
+              "detail": "Flatten the bucket to grade; angle it carefully to bite without overloading."
+            },
+            {
+              "label": "Swing",
+              "detail": "Lift before swinging and slow the arc with a full bucket to avoid spillage."
+            },
+            {
+              "label": "Tracks",
+              "detail": "Face uphill or bench the ground before digging on a side slope."
             }
           ]
         },
         {
           "order": 6,
-          "name": "Haulage & Terrain Prep",
-          "description": "Keep excavators, loaders, and trucks working as one system while preparing stable site access.",
-          "href": "/guide",
-          "displayType": "feature-cards",
+          "name": "Groundwork Simulator Water System Guide",
+          "description": "Supply the gold washing operation with a reliable pump and hose layout. Run a small test batch, watch sluice flow, and correct water problems before committing to continuous digging.",
+          "href": "/guide/groundwork-simulator-mining-setup",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Routes",
-              "detail": "Use wide, graded roads with predictable turn and dump zones"
+              "label": "1",
+              "detail": "Place the wash plant on level ground before routing water or building stockpiles."
             },
             {
-              "label": "Balance",
-              "detail": "Match truck capacity to excavator output and processing speed"
+              "label": "2",
+              "detail": "Position the pump with a clear intake and a short, inspectable hose run."
             },
             {
-              "label": "Drainage",
-              "detail": "Plan runoff so work areas stay usable after heavy rain"
+              "label": "3",
+              "detail": "Keep hoses out of haul lanes and check connections for kinks or long runs."
+            },
+            {
+              "label": "4",
+              "detail": "Run a small test batch and watch how material moves through the sluice boxes."
+            },
+            {
+              "label": "5",
+              "detail": "Reduce the feed rate if material backs up, then restore water flow before continuing."
+            },
+            {
+              "label": "6",
+              "detail": "Clean the shaking table between batches and keep each recovery step separate."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Groundwork Simulator System Requirements",
+          "description": "Check the official Windows and macOS minimum and recommended specifications for Groundwork Simulator. Plan for the CPU and memory load created by detailed soil and water simulation.",
+          "href": "/platforms/groundwork-simulator-system-requirements",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Win Min",
+              "detail": "Windows 10, Intel Core i5-8400 or AMD Ryzen 5 2600, 16 GB RAM, GTX 1070 8 GB, DirectX 12."
+            },
+            {
+              "label": "Win Rec",
+              "detail": "Windows 11, Intel Core i5-12400 or AMD Ryzen 5 5600, 24 GB RAM, RTX 3060 or RX 6600 8 GB."
+            },
+            {
+              "label": "Mac Min",
+              "detail": "macOS Tahoe or newer, Apple M4, 16 GB unified memory, and the M4 integrated GPU."
+            },
+            {
+              "label": "Mac Rec",
+              "detail": "macOS Tahoe or newer, Apple M5 Pro, 24 GB unified memory, and the M5 Pro integrated GPU."
+            },
+            {
+              "label": "Storage",
+              "detail": "10 GB of available space on Windows; plan for the same footprint on Mac."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Groundwork Simulator Updates and Roadmap",
+          "description": "Follow the official Early Access plan, development announcements, and planned content. Track the current one-map build, the expanding vehicle roster, and the feedback channels used for future updates.",
+          "href": "/release/groundwork-simulator-roadmap",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Roadmap",
+              "detail": "Early Access is estimated at roughly three to six months, subject to development progress."
+            },
+            {
+              "label": "Maps",
+              "detail": "The launch build has one playable map; more maps are planned during Early Access."
+            },
+            {
+              "label": "Vehicles",
+              "detail": "The machinery roster will expand with additional vehicles during Early Access."
+            },
+            {
+              "label": "Feedback",
+              "detail": "Steam discussions and the official Discord are the named channels for reports and suggestions."
+            },
+            {
+              "label": "Pricing",
+              "detail": "The base price is $24.99, with no planned change when the full version launches."
             }
           ]
         }
@@ -304,23 +414,23 @@
       "items": [
         {
           "question": "What is Groundwork Simulator?",
-          "answer": "Groundwork Simulator is an open-world heavy machinery game about excavation, earthmoving, gold mining, terrain shaping, transportation, and building wash plants. It supports cooperative play for up to four players."
+          "answer": "Groundwork Simulator is an open-world heavy machinery game about excavation, earthmoving, gold prospecting, and gold recovery. Players operate excavators, bulldozers, loaders, trucks, and trailers, then wash paydirt through sluice boxes and a shaking table."
         },
         {
           "question": "Is Groundwork Simulator multiplayer?",
-          "answer": "Yes. The game is designed for cooperative play with up to four players, so crews can divide excavation, hauling, and processing tasks."
+          "answer": "Yes. Groundwork Simulator includes online co-op, so a crew can divide excavation, hauling, water supply, testing, and wash-plant operation across the same worksite."
         },
         {
-          "question": "What platform is Groundwork Simulator on?",
-          "answer": "The official store listing is for PC on Steam. Check the Steam page for current system requirements and availability."
+          "question": "What should I do first in Groundwork Simulator?",
+          "answer": "Start with Groundwork Simulator story mode, lower the camera and arm sensitivity, and practice a full cut-lift-swing-dump cycle on flat ground. Then test deposits before moving a full mining setup."
         },
         {
-          "question": "How do I mine gold?",
-          "answer": "Prospect for gold-bearing ground, extract the ore-bearing material, haul it to a processing area, and feed it through a wash plant at a steady rate."
+          "question": "How does gold recovery work in Groundwork Simulator?",
+          "answer": "Groundwork Simulator gold recovery follows a chain: test the ground, strip overburden, cut paydirt, haul it to the wash plant, run material through the sluice boxes, and finish the concentrate on the shaking table."
         },
         {
-          "question": "Does Groundwork Simulator have codes?",
-          "answer": "No verified active codes are currently available. Check the Codes page for future updates and only use codes confirmed by official channels."
+          "question": "Which platforms can run Groundwork Simulator?",
+          "answer": "Groundwork Simulator is available in Steam Early Access for Windows and macOS. The Windows build requires DirectX 12, while the macOS build requires Apple silicon with macOS Tahoe or newer."
         }
       ]
     },
